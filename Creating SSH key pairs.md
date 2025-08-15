@@ -22,6 +22,9 @@ chmod 644 ~/.ssh/my-key.pub
 ## Troubleshooting
 
 ### Adding the newly generated key to the SSH process
+
+If newly created SSH keys are not being picked up by the system, you can add them to the ssh process with the following command:
+
 ```bash
 ssh-add ~/.ssh/my-key
 ```
