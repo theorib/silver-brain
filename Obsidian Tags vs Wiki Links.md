@@ -1,0 +1,1 @@
+The key is: **Tags categorize, Links connect**. Use tags to answer "What type of note is this?" and links to answer "What else should I know about this topic?"
