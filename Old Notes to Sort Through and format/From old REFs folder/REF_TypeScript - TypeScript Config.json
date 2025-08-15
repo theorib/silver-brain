@@ -1,0 +1,16 @@
+// Config options for tsconfig.json
+// https://www.typescriptlang.org/tsconfig#references
+
+
+// Specifies an allowlist of files to include in the program. An error occurs if any of the files can’t be found.
+"files": [
+  "core.ts",
+  "sys.ts",
+  "types.ts",
+  "scanner.ts",
+  "parser.ts",
+  "utilities.ts",
+  "binder.ts",
+  "checker.ts",
+  "tsc.ts"
+]

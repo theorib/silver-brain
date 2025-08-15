@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "vitest",
+    // Optionally to test types use this instead:
+    // https://vitest.dev/guide/testing-types
+    "test": "vitest --typecheck"
+  }
+}

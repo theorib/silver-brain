@@ -55,6 +55,10 @@ The vault includes several plugins and themes:
 
 Multiple themes are available including AnuPpuccin, Typewriter, Obsidian Nord, and others.
 
+## Language and Writing Style
+
+This repository uses **British English** for all content. When creating or editing notes, use British spelling conventions (e.g., "organised" not "organized", "colour" not "color", "centre" not "center").
+
 ## Working with This Repository
 
 ### Adding New Content
@@ -62,6 +66,7 @@ Multiple themes are available including AnuPpuccin, Typewriter, Obsidian Nord, a
 - Use consistent markdown formatting and include relevant tags
 - Follow existing naming conventions (title case with descriptive names)
 - Include practical examples and commands where applicable
+- Use British English spelling and conventions
 
 ### Updating Documentation
 - Maintain the hierarchical structure when adding new reference categories

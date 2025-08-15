@@ -1,0 +1,29 @@
+//package.json
+{
+"name": "starter",
+"version": "1.0.0",
+"description": "",
+"source": "./index.html",
+"scripts": {
+"start": "parcel",
+"build": "parcel build index.html --dist-dir ./dist --public-url ./ --no-scope-hoist"
+},
+"author": "Theo Ribeiro",
+"license": "ISC",
+"devDependencies": {
+"@parcel/transformer-sass": "^2.8.0",
+"parcel": "^2.8.0"
+},
+"dependencies": {
+"fractional": "^1.0.0"
+}
+}
+
+//on the build command, to determine the directory for the distribution version to be saved
+--dist-dir ./dist
+
+//on the build command to make sure parcel doesn't create public urls inside the files with a "/" at the begining which can cause all sorts of problems
+--public-url ./
+
+//On the build command to sort out a problem with parcel and a library dependecy (fracitonal) disable scope hoisting which is one of parcel's features to streamline file sizes
+--no-scope-hoist

@@ -1,0 +1,48 @@
+{ 
+  "parser": "@typescript-eslint/parser", // If using TypeScript
+  "parserOptions": {
+    "project": ["tsconfig.json"] // If using TypeScript,  necessary to use "@typescript-eslint/no-floating-promises"
+  },
+  "extends": [
+  "eslint:recommended",
+  "prettier",
+  "plugin:@typescript-eslint/recommended" // If using TypeScript
+  ],
+  "plugins": ["@typescript-eslint"], // If using TypeScript
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warn" // If using TypeScript
+  },
+  "overrides": [
+    { 
+      "files": [
+        "**/__test(s)__/*.{j,t}s?(x)",
+        "**/*.spec.{j,t}s?(x)",
+        "**/*.test(s).{j,t}s?(x)"
+      ],
+      "settings": {
+        "vitest": {
+          "typecheck": true
+        }
+      },
+      "env": {
+        "jest": true
+      },
+      "plugins": [
+        "vitest",
+        "jest-dom", 
+        "testing-library"
+      ],
+      "extends": [
+        "plugin:vitest/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/react"
+      ],
+      "rules": {
+        "vitest/expect-expect": "off", // eliminate
+        "@typescript-eslint/no-unused-vars": "off",
+        "no-unused-vars": "off"
+      }
+
+    }
+  ]
+}

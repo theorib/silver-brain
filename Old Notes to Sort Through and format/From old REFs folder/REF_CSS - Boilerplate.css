@@ -1,0 +1,46 @@
+  :root {
+    font-size: 62.5%;
+  }
+
+  *, 
+  *::before, 
+  *::after {
+    box-sizing: border-box;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+  .visually-hidden {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow:hidden;
+    clip: rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+  }
+
