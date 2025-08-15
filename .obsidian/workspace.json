@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c600aa8e8c1832ed",
+        "id": "63480dd7acd9b1aa",
         "type": "tabs",
         "children": [
           {
-            "id": "9968298a378ebb62",
+            "id": "a9a75d40d9f19e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux CLI commands for directories and files.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linux CLI commands for directories and files"
-            }
-          },
-          {
-            "id": "523872642e0a0d3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Searching within a files in a Linux-Unix systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Searching within a files in a Linux-Unix systems"
-            }
-          },
-          {
-            "id": "22f0ce3b77fec060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creating SSH key pairs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Creating SSH key pairs"
-            }
-          },
-          {
-            "id": "b0f0986c9d0e6404",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Troubleshooting Linux new installations userData.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Troubleshooting Linux new installations userData"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,22 +133,7 @@
             }
           },
           {
-            "id": "cba769ef9ebc6838",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Troubleshooting Linux new installations userData.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Troubleshooting Linux new installations userData"
-            }
-          },
-          {
-            "id": "1406a0902622267f",
+            "id": "ae7bb3204638deda",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -205,11 +143,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,15 +160,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22f0ce3b77fec060",
+  "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
-    "Searching within a files in a Linux-Unix systems.md",
-    "Creating SSH key pairs.md",
-    "Linux CLI commands for directories and files.md",
-    "2025-08-15.md",
-    "bash.md",
-    "Troubleshooting Linux new installations userData.md",
+    "Reference/Linux/Creating SSH key pairs.md",
+    "Reference/Linux/Linux CLI commands for directories and files.md",
+    "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
+    "Reference/Python/Python Testing Notes.md",
+    "Reference/git/Git Workflow Guidelines.md",
+    "Reference/Python",
+    "Reference/git/Git terminal commands.md",
+    "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Troubleshooting/Troubleshooting Linux new installations userData.md",
     "Obsidian Tags vs Wiki Links.md",
+    "Reference/JavaScript/JavaScript Promises.md",
+    "Reference/JavaScript/JavaScript Loops.md",
+    "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
+    "Reference/git",
+    "Reference/Linux",
+    "Reference/AWS",
+    "Reference/JavaScript",
+    "bash.md",
+    "Daily Notes",
+    "Troubleshooting",
+    "Reference",
+    "new file.md",
+    "Daily Notes/2025-08-15.md",
     "moving.md",
     "troubleshooting.md",
     "unix.md",

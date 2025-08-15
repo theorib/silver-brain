@@ -9,5 +9,6 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "heading-styles"
-  ]
+  ],
+  "showRibbon": true
 }

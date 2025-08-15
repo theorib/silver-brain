@@ -1,4 +1,4 @@
-Tags: #linux, #cloud-init, #troubleshooting, #dev-ops, #bash
+Tags: #linux #cloud-init #troubleshooting #dev-ops #bash
 ## Check if cloud-init completed
 
 ```bash

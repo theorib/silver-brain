@@ -1,4 +1,4 @@
-Tags: #linux, #unix, #files, #directories, #cli, #cli-commands, #bash
+Tags: #linux #unix #files #directories #cli #cli-commands #bash
 
 ## Print Working Directory - Tells me where am I
 
