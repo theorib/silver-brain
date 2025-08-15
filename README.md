@@ -9,6 +9,7 @@ Welcome to my digital brain! This repository contains my personal notes, referen
 This is an **Obsidian vault** containing organized notes about:
 
 - **Programming Languages**: JavaScript, Python, and more
+- **Data Engineering**: Python-based data pipelines, ETL processes, and analytics from my intensive 3-month bootcamp at Northcoders
 - **Tools & Technologies**: Git workflows, AWS CLI, Linux commands
 - **Development Practices**: Testing frameworks, Git hooks, best practices
 - **Troubleshooting**: Real problems I've encountered and how I solved them
