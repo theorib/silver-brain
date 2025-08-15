@@ -6,7 +6,7 @@ Welcome to my digital brain! This repository contains my personal notes, referen
 
 ## What You'll Find Here
 
-This is an **Obsidian vault** containing organized notes about:
+This is an **Obsidian vault** containing organised notes about:
 
 - **Programming Languages**: JavaScript, Python, and more
 - **Data Engineering**: Python-based data pipelines, ETL processes, and analytics from my intensive 3-month bootcamp at Northcoders

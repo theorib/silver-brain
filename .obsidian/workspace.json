@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI authentication and credentials"
+              "title": "README"
             }
           }
         ]
@@ -145,6 +145,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5712b5786404c035",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 3
@@ -166,9 +176,10 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
+    "Reference/AWS/AWS CLI authentication and credentials.md",
+    "README.md",
     "CLAUDE.md",
     "Reference/git/Git terminal commands.md",
-    "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Linux/Creating SSH key pairs.md",
     "Reference/Linux/Linux CLI commands for directories and files.md",
     "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
@@ -198,7 +209,6 @@
     "directory.md",
     "dev-ops.md",
     "cli commands.md",
-    "cli.md",
-    "linux 1.md"
+    "cli.md"
   ]
 }
