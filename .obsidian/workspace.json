@@ -166,6 +166,7 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "Reference/git/Git terminal commands.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Linux/Creating SSH key pairs.md",
@@ -198,7 +199,6 @@
     "dev-ops.md",
     "cli commands.md",
     "cli.md",
-    "linux 1.md",
-    "linux.md"
+    "linux 1.md"
   ]
 }
