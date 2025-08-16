@@ -5,6 +5,7 @@ The Secure Shell Protocol is a cryptographic network protocol for operating netw
 
 After entering the following command, follow the on-screen prompts. You can create a password which you will have to remember every time you use the key (or you can store it in your keychain).
 
+>[!info]
 This process will create two files in the chosen directory. The one with the `.pub` extension is the public key that you send or set up in the services you are using. The other file is your private key, which you should never share.
 
 ```bash
@@ -27,8 +28,8 @@ chmod 644 ~/.ssh/my-key.pub
 
 ### Adding the newly generated key to the SSH process
 
+> [!tip]
 If newly created SSH keys are not being picked up by the system, you can add them to the ssh process using the following command:
-
 ```bash
 ssh-add ~/.ssh/my-key
 ```

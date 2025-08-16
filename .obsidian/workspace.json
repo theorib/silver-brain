@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS.md",
+                "file": "Reference/JavaScript/JavaScript Loops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Build Responsive Real-World Websites with HTML and CSS"
+              "title": "JavaScript Loops"
             }
           }
         ]
@@ -155,6 +155,21 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "d909598b70c02ad1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reference/JavaScript/JavaScript Loops.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of JavaScript Loops"
+            }
           }
         ],
         "currentTab": 3
@@ -176,8 +191,13 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
-    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS-reverse.md",
+    "Reference/JavaScript/JavaScript Promises.md",
+    "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
+    "Reference/Linux/Linux CLI commands for directories and files.md",
+    "Reference/Linux/Creating SSH key pairs.md",
+    "Reference/AWS/AWS CLI authentication and credentials.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS.md",
+    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS-reverse.md",
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
     "Old Notes to Sort Through and format/readme.md",
     "README.md",
@@ -207,11 +227,6 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-25 - Day 8 | Functional Programming/2025-03-25 - Notes | Functional Programming.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-24 - Day 7 | Python Operators/2025-03-24 - Notes | Python Operators.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-24 - Day 6 | TDD/2025-03-24 Notes | TDD.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-21 - Day 4 | Tuples, Dictionaries/2025-03-21 - Noters | Tuples, Dictionaries.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-19 - Day 3 | Algorithms and Problem Solving/2025-03-19 - Notes | Algorithms and Problem Solving.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-18 - Day 2 | Functions/2025-03-18 - Notes | Functions.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-17 - Day 1 | Intro/2025-03-17 - Notes | Intro.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/other-notes/uv -REF.md",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }

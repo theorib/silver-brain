@@ -35,6 +35,8 @@ aws sts get-caller-identity
 
 
 ## Credentials and Config location
+
+>[!info]
 Credentials get stored  by default at: `~/.aws/credentials`
 Config such as region and output formats get stored by default at: `~/.aws/config`
 ### This is a sample credentials file:
