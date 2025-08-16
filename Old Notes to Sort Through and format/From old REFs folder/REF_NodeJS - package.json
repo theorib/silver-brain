@@ -1,0 +1,22 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "Learning NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Theo Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    // the ~ means that it will accept updates for patch releases only
+    "slugify": "~1.6.6",
+    // the ^ means that it will accept updates for minor and patch releases
+    "sharp": "^0.28.1",
+    // the * means that it will accept updates for major, minor and patch releases
+    "express": "*4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Obsidian Nord",
+  "accentColor": "",
+  "theme": "obsidian",
+  "monospaceFontFamily": "GeistMono Nerd Font",
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Inter,Raleway,lato,Futura,Open Sans",
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "heading-styles"
+  ],
+  "showRibbon": true
+}
