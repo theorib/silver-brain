@@ -42,7 +42,8 @@ for (let i = 0; i < 5; i++) {
 
 The for...in statement loops through the properties of an object:
 
-### Syntax
+>[!info]
+>The `key` (or `x`)  variable in the examples below will loop through the keys of the object so to access it's values, you need to access them using brackets notation, e.g. `person[x]`.
 
 ```javascript
 for (key in object) {
@@ -174,7 +175,7 @@ for (let i = 0; i < 10; i++) {
 
 1. **Use for...of for arrays** when you need the values
 2. **Use for...in for objects** when you need the keys/properties
-3. **Use regular for loop** when you need index control
+3. **Use a regular for loop** when you need index control
 4. **Always ensure loop conditions will eventually become false** to avoid infinite loops
 5. **Consider using array methods** like `forEach()`, `map()`, `filter()` for functional programming approaches
 
