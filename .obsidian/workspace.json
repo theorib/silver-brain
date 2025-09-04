@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/JavaScript/Node/PNPM Environments.md",
+                "file": "Reference/Python/Python Loops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PNPM Environments"
+              "title": "Python Loops"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
-    "Reference/JavaScript/JavaScript Classes.md",
     "Reference/JavaScript/Node/PNPM Environments.md",
+    "Reference/Python/Python Loops.md",
+    "Reference/JavaScript/JavaScript Classes.md",
     "Reference/JavaScript/JavaScript Array Methods.md",
     "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
     "Reference/JavaScript/JavaScript Loops.md",
@@ -226,7 +227,6 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-07 - Day 16 | File IO/2025-04-07 - Notes | File IO.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-03 - Day 14 | OOP Class Inheritance/2025-04-03 - Notes | OOP Class Inheritance.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-02 - Day 13 | OOP/2025-04-02 - Notes | OOP.md",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
