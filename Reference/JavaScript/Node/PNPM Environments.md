@@ -1,6 +1,6 @@
 # PNPM Environments
 
-Tags: #javascript #node #runtime #development-environment
+Tags: #javascript #node #runtime #development-environment #pnpm
 ## Managing Environments
 This allows `pnpm` to [manage node versions](https://pnpm.io/cli/env).
 ```bash
