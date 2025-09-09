@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/Python Loops.md",
+                "file": "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Loops"
+              "title": "Searching within a files in a Linux-Unix systems"
             }
           }
         ]
@@ -191,8 +191,11 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
-    "Reference/JavaScript/Node/PNPM Environments.md",
+    "Reference/Linux/Linux CLI commands for directories and files.md",
+    "Reference/Linux/Creating SSH key pairs.md",
     "Reference/Python/Python Loops.md",
+    "Reference/Pulumi",
+    "Reference/JavaScript/Node/PNPM Environments.md",
     "Reference/JavaScript/JavaScript Classes.md",
     "Reference/JavaScript/JavaScript Array Methods.md",
     "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
@@ -204,8 +207,6 @@
     "conventional-commit-with-gitmoji-ai-prompt.md",
     "Reference/JavaScript/JavaScript Promises.md",
     "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
-    "Reference/Linux/Linux CLI commands for directories and files.md",
-    "Reference/Linux/Creating SSH key pairs.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/Build Responsive Real-World Websites with HTML and CSS-reverse.md",
@@ -221,12 +222,10 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/2025-04-11.ipynb",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/2025-04-11 - Notes | Async Python.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-09 - Day 18 | Generators/2025-04-09 - Notes | Generators.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-08 - Day 17 | Iterators and Iterables/2025-04-08 - Notes | Iterators and Iterables.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-07 - Day 16 | File IO/2025-04-07 - Notes | File IO.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-03 - Day 14 | OOP Class Inheritance/2025-04-03 - Notes | OOP Class Inheritance.md",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
