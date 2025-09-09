@@ -33,3 +33,9 @@ If newly created SSH keys are not being picked up by the system, you can add the
 ```bash
 ssh-add ~/.ssh/my-key
 ```
+
+### Removing keys belonging to a hostname from a known_hosts file
+Use this if the host has knowingly changed but continues to exist in the same ip address
+```bash
+ssh-keygen -R some-hostname-or-ip
+```
