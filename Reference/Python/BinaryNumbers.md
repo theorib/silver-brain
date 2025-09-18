@@ -35,7 +35,7 @@ print(0b1010)
 ```
 
 ## Bitwise `&` Operator
-The bitwise operator, operates in all the bits in a value by column, for example:
+The bitwise `&` operator, operates in all the bits in a value by column. Only values that are `True` in both sides of the comparison remain `True`, everything else becomes `False` for example:
 `0b0101` equals 5
 `0b0111` equals 7
 
@@ -45,13 +45,30 @@ The bitwise operator, operates in all the bits in a value by column, for example
 0111 #0b0111
 ```
 
-equals 5 because:
+`0b0101 & 0b0111` equals `0b0101` or 5, because:
+
 ```
 0 & 0 = 0
-
 1 & 1 = 1
-
 0 & 1 = 0
-
 1 & 1 = 1
+```
+
+# Bitwise `|` Operator
+
+The bitwise `|` operator operates in the same way column by column but it combines values so any ones that are `True` in either sides of the operation become `True` in the final result
+
+```python
+0101 #0b0101 
+|
+0111 #0b0111
+```
+
+`0b0101 | 0b0111` equals `0b0111` or 7, because:
+
+```
+0 | 0 = 0
+1 | 1 = 1
+0 | 1 = 1
+1 | 1 = 1
 ```
