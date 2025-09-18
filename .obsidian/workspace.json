@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/LargeNumbers.md",
+                "file": "Reference/Python/BinaryNumbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LargeNumbers"
+              "title": "BinaryNumbers"
             }
           },
           {
@@ -202,6 +202,7 @@
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
     "Reference/Python/LargeNumbers.md",
+    "Reference/Python/BinaryNumbers.md",
     "Reference/Pulumi/Pulumi.md",
     "Reference/Python/ParametersVsArguments.md",
     "Reference/Python/NoneType.md",
@@ -234,7 +235,6 @@
     "Reference/SQL",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground/test_ground.ipynb",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/sprints_index.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground/test_1.py",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
