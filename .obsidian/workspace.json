@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/NoneType.md",
+                "file": "Reference/Python/ParametersVsArguments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NoneType"
+              "title": "ParametersVsArguments"
             }
           }
         ],
@@ -206,8 +206,9 @@
   },
   "active": "951d665ef6846a32",
   "lastOpenFiles": [
-    "Reference/Linux/Creating SSH key pairs.md",
     "Reference/Python/NoneType.md",
+    "Reference/Python/ParametersVsArguments.md",
+    "Reference/Linux/Creating SSH key pairs.md",
     "Forcing wordpres url.md",
     "Reference/Pulumi/Pulumi.md",
     "Reference/Wordpress",
@@ -241,7 +242,6 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/readme.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground/test_1.py",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/2025-04-11 - Notes | Async Python.md",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
