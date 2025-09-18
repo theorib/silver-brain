@@ -33,3 +33,24 @@ print(0b1001)
 print(0b1010)
 # prints 10
 ```
+
+## Bitwise `&` Operator
+The bitwise operator, operates in all the bits in a value by column, for example:
+`0b0101` equals 5
+`0b0111` equals 7
+```
+0b0101 
+& 
+0b0111
+```
+equals 5 because:
+```
+0 & 0 = 0
+
+1 & 1 = 1
+
+0 & 1 = 0
+
+1 & 1 = 1
+```
+
