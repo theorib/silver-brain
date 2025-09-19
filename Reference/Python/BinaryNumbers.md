@@ -63,7 +63,7 @@ The bitwise `|` operator operates in the same way column by column but it combin
 |
 0111 #0b0111
 ```
-
+	
 `0b0101 | 0b0111` equals `0b0111` or 7, because:
 
 ```
