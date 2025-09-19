@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/ConcatenatingLists.md",
+                "file": "Reference/Python/DeletionWithDel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ConcatenatingLists"
+              "title": "DeletionWithDel"
             }
           },
           {
@@ -201,8 +201,9 @@
   },
   "active": "a9a75d40d9f19e28",
   "lastOpenFiles": [
-    "Reference/Python/SlicingLists.md",
     "Reference/Python/ConcatenatingLists.md",
+    "Reference/Python/DeletionWithDel.md",
+    "Reference/Python/SlicingLists.md",
     "Reference/Python/ModuloOperator.md",
     "Reference/Python/MinMaxValueWithInfinity.md",
     "Reference/Python/LargeNumbers.md",
@@ -230,7 +231,6 @@
     "Reference/JavaScript/JavaScript DOM Manipulation.md.tmp.66481.1755433199479",
     "Reference/JavaScript/JavaScript Async Functions.md",
     "conventional-commit-with-gitmoji-ai-prompt.md",
-    "Reference/JavaScript/JavaScript Promises.md",
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
     "Reference/SQL",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground/test_ground.ipynb",
