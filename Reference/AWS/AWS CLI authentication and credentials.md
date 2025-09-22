@@ -21,7 +21,10 @@ aws configure --profile new_profile_name
 ```bash
 export AWS_PROFILE=new_profile_name
 ```
-
+## Running a command as a specific profile
+```bash
+aws s3 ls --profile SomeProfileName
+```
 ## Check current profile
 ```bash
 aws configure list
