@@ -11,10 +11,14 @@
             "id": "4893daeba07915cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Reference/Python/PytestTestingExceptions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PytestTestingExceptions"
             }
           }
         ]
@@ -185,8 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29548c005b28fff6",
+  "active": "4893daeba07915cc",
   "lastOpenFiles": [
+    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
+    "Reference/Python/PytestTestingExceptions.md",
     "Daily Notes/2025-09-22.md",
     "Reference/AWS/AWSAccountSetup.md",
     "Reference/Python/TypesBoto3.md",
@@ -212,9 +218,7 @@
     "Reference/Linux/Linux CLI commands for directories and files.md",
     "Troubleshooting/Troubleshooting Linux new installations userData.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-05-01 - Day 32 | Terraform/2025-05-01 - Day 32 | Terraform.md",
-    "Reference/Python/Python Loops.md",
     "Reference/Pulumi",
-    "Reference/JavaScript/Node/PNPM Environments.md",
     "Reference/JavaScript/Node",
     "Reference/JavaScript/JavaScript DOM Manipulation.md.tmp.66481.1755433199479",
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
