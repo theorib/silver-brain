@@ -1,58 +1,87 @@
+# Python Pytest Testing - Patching Example
+
 #python #pytest #testing #patching
 
-We can use python's `unittest.mock.patch` to intercept
+We can use python's `unittest.mock.patch` to intercept and mock function calls during testing.
 
+Consider a simple function that fetches a user's profile from an API. We want to test our logic without making actual HTTP requests:
 
-Consider a function that calls a module that we need to mock. In this case, the [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) library is being used to get an s3 file from AWS.
-
-When testing, we can use the [moto](https://docs.getmoto.org/en/latest/docs/getting_started.html) library to mock any AWS calls but to do so, we will need to patch   will need to 
 ```python
-import boto3
+import requests
 
-def get_s3_file(bucket: str, key: str) -> bytes:
-	s3_client = boto3.client("s3")
-	response = s3_client.get_object(Bucket=bucket, Key=key)
+def get_user_profile(user_id):
+    """Fetch user profile from API"""
+    try:
+        response = requests.get(f"https://api.example.com/users/{user_id}")
+        response.raise_for_status()  # Raises exception for 4xx/5xx status codes
+        return response.json()
+    except requests.RequestException as e:
+        return {"error": f"Failed to fetch user: {str(e)}"}
 
-	file = response["Body"].read()
-
-	return file
+def format_user_display(user_id):
+    """Get user data and format for display"""
+    profile = get_user_profile(user_id)
+    
+    if "error" in profile:
+        return f"Error: {profile['error']}"
+    
+    name = profile.get('name', 'Unknown')
+    email = profile.get('email', 'No email')
+    
+    return f"{name} ({email})"
 ```
 
 ```python
-from unittest.mock import patch
-
-import boto3
+from unittest.mock import patch, Mock
 import pytest
-from moto import mock_aws
+import requests
 
+@patch('your_module.requests.get')  # Replace 'your_module' with actual module name
+def test_format_user_display_success(mock_get):
+    # Mock successful API response
+    mock_response = Mock()
+    mock_response.json.return_value = {
+        'name': 'John Doe',
+        'email': 'john@example.com'
+    }
+    mock_response.raise_for_status.return_value = None
+    mock_get.return_value = mock_response
+    
+    result = format_user_display(123)
+    
+    assert result == "John Doe (john@example.com)"
+    mock_get.assert_called_once_with("https://api.example.com/users/123")
 
-@pytest.fixture(scope="function")
-def s3_client():
-	with mock_aws():
-		# Create a mock s3 client
-		s3_client = boto3.client("s3", region_name="eu-west-2")
-		
-		# Create a bucket within the client 
-		s3_client.create_bucket( Bucket='test-bucket',
-		CreateBucketConfiguration={'LocationConstraint': 'eu-west-2'} ) 
-		
-		# Add a test file 
-		s3_client.put_object(
-			Bucket='test-bucket',
-			Key='file_key.txt',
-			Body=b'some text'
-		)
-		
-		yield s3_client
+@patch('your_module.requests.get')
+def test_format_user_display_api_error(mock_get):
+    # Mock API failure
+    mock_get.side_effect = requests.ConnectionError("Connection failed")
+    
+    result = format_user_display(123)
+    
+    assert result == "Error: Failed to fetch user: Connection failed"
 
-
-@patch("boto3.client")
-def test_function_returns_bytes(mock_boto3_client, s3_client):
-	mock_boto_client.return_value = s3_client
-
-	expected = b'some text'
-
-	result = get_s3_file('test_bucket', 'file_key.txt')
-	assert isinstance(result, bytes)
-	assert result == expected
+@patch('your_module.requests.get')
+def test_format_user_display_missing_data(mock_get):
+    # Mock response with missing fields
+    mock_response = Mock()
+    mock_response.json.return_value = {'id': 123}  # Missing name and email
+    mock_response.raise_for_status.return_value = None
+    mock_get.return_value = mock_response
+    
+    result = format_user_display(123)
+    
+    assert result == "Unknown (No email)"
 ```
+
+## Key Points
+
+In this example:
+
+- We patch `requests.get` to avoid making real HTTP calls during tests
+- We test the **happy path** with successful API responses
+- We test **error handling** by simulating network failures using `side_effect`
+- We test **edge cases** like missing data fields
+- The patching lets us control exactly what the API "returns" for predictable testing
+
+This is a common pattern when testing code that depends on external services - patch the external dependency and focus on testing your own logic.
