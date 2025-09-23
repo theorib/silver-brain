@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/TerminalShellCLI.md",
+                "file": "Reference/Python/TypesBoto3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TerminalShellCLI"
+              "title": "TypesBoto3"
             }
           }
         ],
@@ -216,10 +216,11 @@
   },
   "active": "fc82658499f61eb1",
   "lastOpenFiles": [
-    "Reference/Python/MinMaxValueWithInfinity.md",
-    "Reference/Linux/TerminalShellCLI.md",
-    "Reference/Python/LargeNumbers.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Reference/Python/TypesBoto3.md",
+    "Reference/Linux/TerminalShellCLI.md",
+    "Reference/Python/MinMaxValueWithInfinity.md",
+    "Reference/Python/LargeNumbers.md",
     "Daily Notes/2025-09-22.md",
     "Daily Notes/2025-08-15.md",
     "2025-09-22.md",
@@ -243,7 +244,6 @@
     "Reference/Pulumi",
     "Reference/JavaScript/Node/PNPM Environments.md",
     "Reference/JavaScript/JavaScript Classes.md",
-    "Reference/JavaScript/JavaScript Array Methods.md",
     "Reference/JavaScript/Node",
     "Reference/JavaScript/JavaScript DOM Manipulation.md.tmp.66481.1755433199479",
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
