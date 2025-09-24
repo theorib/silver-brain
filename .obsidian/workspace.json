@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/Finding Files.md",
+                "file": "Reference/Python/TypesBoto3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finding Files"
+              "title": "TypesBoto3"
             }
           }
         ]
@@ -191,33 +191,34 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Python/PatchingObjectCalls.md",
+    "Reference/Python/RevertingLists.md",
+    "Reference/Python/TypesBoto3.md",
+    "Reference/Python/SlicingLists.md",
+    "Reference/Python/Python Loops.md",
+    "Reference/Python/Parameters vs Arguments.md",
+    "Reference/Python/Pytest/Pytest Patching Object Calls.md",
+    "Reference/Python/None Type.md",
+    "Reference/Python/Modulo Operator.md",
+    "Reference/Python/Min Max Value with Infinity.md",
+    "Reference/Python/Large Numbers.md",
+    "Reference/Python/Deletion with del.md",
+    "Reference/Python/Concatenating Lists.md",
+    "Reference/Python/Binary Numbers.md",
+    "Reference/Python/Pytest/Python Testing Exceptions.md",
+    "Reference/Python/Pytest",
+    "Reference/Python/Pytest/Python Testing Notes.md",
     "Reference/Linux/Finding Files.md",
-    "Reference/Python/PytestTestingExceptions.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
     "Daily Notes/2025-09-22.md",
     "Reference/AWS/AWSAccountSetup.md",
-    "Reference/Python/TypesBoto3.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Linux/TerminalShellCLI.md",
-    "Reference/Python/MinMaxValueWithInfinity.md",
-    "Reference/Python/LargeNumbers.md",
     "Daily Notes/2025-08-15.md",
     "2025-09-22.md",
-    "Reference/Python/RevertingLists.md",
-    "Reference/Python/DeletionWithDel.md",
-    "Reference/Python/ConcatenatingLists.md",
-    "Reference/Python/SlicingLists.md",
-    "Reference/Python/ModuloOperator.md",
-    "Reference/Python/BinaryNumbers.md",
     "Reference/Pulumi/Pulumi.md",
-    "Reference/Python/ParametersVsArguments.md",
-    "Reference/Python/NoneType.md",
     "Reference/Linux/Creating SSH key pairs.md",
     "Forcing wordpres url.md",
     "Reference/Wordpress",
-    "Reference/Linux/Searching within a files in a Linux-Unix systems.md",
-    "Reference/Linux/Linux CLI commands for directories and files.md",
     "Reference/Pulumi",
     "Reference/JavaScript/Node",
     "Reference/JavaScript/JavaScript DOM Manipulation.md.tmp.66481.1755433199479",
@@ -226,7 +227,6 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground/test_ground.ipynb",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground/test_1.py",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-11 - Day 20 | Async Python/test_ground",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }

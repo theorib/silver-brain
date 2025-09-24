@@ -1,4 +1,4 @@
-#python #pytest #errors #exceptions #error-handling #exception-handling #testing
+#python #pytest #errors #exceptions #error-handling #exception-handling #testing #regex
 
 
 # Testing that exceptions are raised in pytest
@@ -16,7 +16,19 @@ def test_raises__value_error_exception():
 ```
 
 You can also assert that the exception message is the one you expected.
-Note that you have to make the assertion outside of the `pytest.raises` context manager otherwise the assertion does not work.
+
+You can use a `regex` pattern on the `match` optional argument that you can pass to `pytest.raises`:
+
+```python
+import pytest
+
+def test_raises__value_error_exception():
+    with pytest.raises(ValueError, match='This value was invalid'):
+        another_function("another_invalid_value")
+```
+
+
+Alternatively, you can make a normal assertion outside of the `pytest.raises` context manager (otherwise the assertion does not work).
 
 ```python
 import pytest

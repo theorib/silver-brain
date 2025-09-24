@@ -95,7 +95,7 @@ Some highlights from my notes that might be useful:
 - **[Git Workflow Guidelines](Reference/git/Git%20Workflow%20Guidelines.md)**: My compiled best practices for Git
 - **[Husky & Git Hooks Setup](Reference/JavaScript/Husky%20&%20Git%20Hooks%20Setup%20Guide.md)**: Complete guide for setting up development workflows
 - **[JavaScript Promises](Reference/JavaScript/JavaScript%20Promises.md)**: Notes on async JavaScript
-- **[Python Testing](Reference/Python/Python%20Testing%20Notes.md)**: Testing frameworks and patterns
+- **[Python Testing](Python%20Testing%20Notes.md)**: Testing frameworks and patterns
 
 ## Why I'm Sharing This
 
