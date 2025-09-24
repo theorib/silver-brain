@@ -71,3 +71,13 @@ output = text
 region = eu-west-1
 output = json
 ```
+
+## Configuring IAM Identity Center authentication with the AWS CLI (SSO authentication)
+
+Official docs [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) and how to set up an account user here: [[AWSAccountSetup]]
+Follow the onscreen prompts:
+
+```bash
+aws configure sso
+```
+

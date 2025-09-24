@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/TypesBoto3.md",
+                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TypesBoto3"
+              "title": "AWS CLI authentication and credentials"
             }
           }
         ]
@@ -191,8 +191,10 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Python/RevertingLists.md",
+    "Reference/AWS/AWSAccountSetup.md",
+    "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Python/TypesBoto3.md",
+    "Reference/Python/RevertingLists.md",
     "Reference/Python/SlicingLists.md",
     "Reference/Python/Python Loops.md",
     "Reference/Python/Parameters vs Arguments.md",
@@ -210,8 +212,6 @@
     "Reference/Linux/Finding Files.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
     "Daily Notes/2025-09-22.md",
-    "Reference/AWS/AWSAccountSetup.md",
-    "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Linux/TerminalShellCLI.md",
     "Daily Notes/2025-08-15.md",
     "2025-09-22.md",
