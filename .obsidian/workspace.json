@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "file": "Reference/Python/Getting a file basename base and extension.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI authentication and credentials"
+              "title": "Getting a file basename base and extension"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/AWS/AWSAccountSetup.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Reference/Python/Getting a file basename base and extension.md",
+    "Reference/AWS/AWSAccountSetup.md",
     "Reference/Python/TypesBoto3.md",
     "Reference/Python/RevertingLists.md",
     "Reference/Python/SlicingLists.md",
@@ -217,7 +218,6 @@
     "2025-09-22.md",
     "Reference/Pulumi/Pulumi.md",
     "Reference/Linux/Creating SSH key pairs.md",
-    "Forcing wordpres url.md",
     "Reference/Wordpress",
     "Reference/Pulumi",
     "Reference/JavaScript/Node",
