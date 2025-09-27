@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/Finding Files.md",
+                "file": "Reference/Linux/Standard Input Standard Output and Standard Error.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finding Files"
+              "title": "Standard Input Standard Output and Standard Error"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#stdout",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,6 +192,8 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
+    "Reference/Linux/Finding Files.md",
+    "Reference/Linux/Standard Input Standard Output and Standard Error.md",
     "Reference/Linux/Exit Codes.md",
     "Reference/Linux/Moving Files.md",
     "Reference/Linux/Getting Number of Bytes.md",
@@ -215,8 +218,6 @@
     "Reference/Python/Large Numbers.md",
     "Reference/Python/Deletion with del.md",
     "Reference/Python/Concatenating Lists.md",
-    "Reference/Python/Binary Numbers.md",
-    "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/Python/Pytest",
     "Reference/Wordpress",
     "Reference/Pulumi",
