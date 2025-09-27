@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/Variables.md",
+                "file": "Reference/Linux/Finding Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables"
+              "title": "Finding Files"
             }
           }
         ]
@@ -191,8 +191,11 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Linux/ls command.md",
+    "Reference/Linux/Exit Codes.md",
+    "Reference/Linux/Moving Files.md",
+    "Reference/Linux/Getting Number of Bytes.md",
     "Reference/Linux/Variables.md",
+    "Reference/Linux/ls command.md",
     "Reference/Linux/Terminal Shell CLI.md",
     "Reference/Linux/shebang.md",
     "Reference/Linux/Permissions and ownership.md",
@@ -215,9 +218,6 @@
     "Reference/Python/Binary Numbers.md",
     "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/Python/Pytest",
-    "Reference/Python/Pytest/Python Testing Notes.md",
-    "Reference/Linux/Finding Files.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-04 - Day 15 | Errors and Exceptions/2025-04-04 - Notes | Errors and Exceptions.md",
     "Reference/Wordpress",
     "Reference/Pulumi",
     "Reference/JavaScript/Node",
