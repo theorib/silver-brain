@@ -28,3 +28,9 @@ cat error.txt
 ## Standard Input
 Usually called "standard in" or "stdin", is the default place where programs _read_ their input.
 In python, it's represented by the `input()` function in bash it's the `read`
+
+## Piping the `stdout` of one program to the `stdin` of another with the `|` piper operator
+
+```bash
+grep -R "Bob" private/transactions --exclude-dir="backups" | wc -l
+```

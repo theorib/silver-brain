@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/Standard Input Standard Output and Standard Error.md",
+                "file": "Reference/Linux/Process ID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Standard Input Standard Output and Standard Error"
+              "title": "Process ID"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#stdout",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +191,10 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Linux/Finding Files.md",
+    "Reference/Linux/SIGINT.md",
+    "Reference/Linux/Process ID.md",
     "Reference/Linux/Standard Input Standard Output and Standard Error.md",
+    "Reference/Linux/Finding Files.md",
     "Reference/Linux/Exit Codes.md",
     "Reference/Linux/Moving Files.md",
     "Reference/Linux/Getting Number of Bytes.md",
@@ -216,8 +217,6 @@
     "Reference/Python/Modulo Operator.md",
     "Reference/Python/Min Max Value with Infinity.md",
     "Reference/Python/Large Numbers.md",
-    "Reference/Python/Deletion with del.md",
-    "Reference/Python/Concatenating Lists.md",
     "Reference/Python/Pytest",
     "Reference/Wordpress",
     "Reference/Pulumi",
