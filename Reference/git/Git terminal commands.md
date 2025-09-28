@@ -101,6 +101,10 @@ Quit the git log
 q
 ```
 
+Viewing the log history as a pretty graph
+```bash
+git --no-pager log --oneline --decorate --graph --parents
+```
 ## Amending Commits
 
 Amend the last commit (first add any files missing to that commit with git add)
