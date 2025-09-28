@@ -143,6 +143,8 @@ Switch to another branch
 
 ```bash
 git switch branchName
+# or do it the old way
+git checkout branchName
 ```
 
 Create a new branch based upon the current HEAD and switch to it
@@ -168,7 +170,7 @@ git branch -d branchToDelete
 Rename a branch
 
 ```bash
-git branch -m newBranchName
+git branch -m oldBranchName newBranchName
 ```
 
 Show all branches (local and remote)

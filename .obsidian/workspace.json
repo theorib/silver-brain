@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/neovim/Neovim.md",
+                "file": "Reference/git/Git terminal commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neovim"
+              "title": "Git terminal commands"
             }
           }
         ]
@@ -191,8 +191,11 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Linux/Profiling and Performance.md",
+    "Reference/git/Git Config.md",
+    "Reference/git/Git Trees and Blobs.md",
+    "Reference/git/Git terminal commands.md",
     "Reference/neovim/Neovim.md",
+    "Reference/Linux/Profiling and Performance.md",
     "Reference/neovim",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
@@ -218,9 +221,6 @@
     "Reference/Python/SlicingLists.md",
     "Reference/Python/Python Loops.md",
     "Reference/Python/Parameters vs Arguments.md",
-    "Reference/Python/Pytest/Pytest Patching Object Calls.md",
-    "Reference/Python/None Type.md",
-    "Reference/Python/Modulo Operator.md",
     "Reference/Python/Pytest",
     "Reference/Wordpress",
     "Reference/Pulumi",
