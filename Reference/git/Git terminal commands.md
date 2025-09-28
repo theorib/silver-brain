@@ -104,6 +104,12 @@ q
 Viewing the log history as a pretty graph
 ```bash
 git --no-pager log --oneline --decorate --graph --parents
+# --oneline means it will condense hashes to their minimum size of 7 characters
+# --graph gives us the graph tree view
+# --decorate gives the branch and tag information
+# --parents gives the parent(s) commit hash along side the actuall commit hash
+# --no-pager forbids the use of a pager so the output gets printed to the terminal
+
 ```
 ## Amending Commits
 
