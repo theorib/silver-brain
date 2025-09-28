@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Linux/Profiling and Performance.md",
+                "file": "Reference/neovim/Neovim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Profiling and Performance"
+              "title": "Neovim"
             }
           }
         ]
@@ -191,9 +191,11 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
+    "Reference/Linux/Profiling and Performance.md",
+    "Reference/neovim/Neovim.md",
+    "Reference/neovim",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
-    "Reference/Linux/Profiling and Performance.md",
     "Screenshots",
     "Reference/Linux/Process ID.md",
     "Reference/Linux/SIGINT.md",
@@ -227,7 +229,6 @@
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
     "Reference/SQL",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground/test_ground.ipynb",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/test_ground",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
