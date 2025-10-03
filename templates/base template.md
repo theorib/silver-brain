@@ -1,5 +1,4 @@
 ---
-created:
 tags:
 ---
 # {{title}}
