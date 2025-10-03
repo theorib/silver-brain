@@ -11,10 +11,24 @@
             "id": "4893daeba07915cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AWS CLI authentication and credentials"
             }
           }
         ]
@@ -128,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from AWS CLI authentication and credentials"
             }
           },
           {
@@ -229,8 +244,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "29548c005b28fff6",
+  "active": "4893daeba07915cc",
   "lastOpenFiles": [
+    "SSH.md",
+    "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Untitled 1.base",
     "Untitled 3.base",
     "Untitled 4.base",
     "Untitled 2.base",
@@ -245,14 +263,12 @@
     "Reference/Python/RevertingLists.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Creating SSH key pairs.md",
-    "Untitled 1.base",
     "Untitled.base",
     "Reference/git/Git terminal commands.md",
     "templates/base template.md",
     "Reference/Python/new fole.md",
     "New file.md",
     "Reference/AWS/AWSAccountSetup.md",
-    "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/git/Configuring rebase on pull.md",
     "templates",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-17 - Day 24 | Normal Forms/2025-04-17 - Notes | Normal Forms.md",
@@ -268,7 +284,6 @@
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Screenshots",
     "Reference/Python/Pytest",
-    "Reference/Wordpress",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }

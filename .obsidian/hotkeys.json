@@ -29,5 +29,14 @@
       ],
       "key": "P"
     }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "["
+    }
   ]
 }

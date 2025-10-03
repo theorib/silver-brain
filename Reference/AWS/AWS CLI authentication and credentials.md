@@ -9,10 +9,10 @@ tags:
   - authentication
   - credentials
 ---
-# AWS CLI authentication and credentials
+# AWS CLI [[authentication]] and credentials
 
-To create SSH keys, please see [[Creating SSH key pairs]]
-## Get the current credentials
+To create [[SSH]] keys, please see [[Creating SSH key pairs]]
+## Get the current [[credentials]]
 ```bash
 code ~/.aws/credentials
 ```
