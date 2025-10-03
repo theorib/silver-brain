@@ -1,5 +1,12 @@
-Tags:  #python #binary #maths #syntax #numbers 
-
+---
+created:
+tags:
+  - python
+  - binary
+  - maths
+  - syntax
+  - numbers
+---
 # Binary Numbers
 Binary numbers in python can be written using the binary syntax, example:
 `0b1` is equal to the number `1`.

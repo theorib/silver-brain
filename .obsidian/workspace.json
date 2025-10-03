@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/filesystem/Creating directories.md",
+                "file": "templates/base template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creating directories"
+              "title": "base template"
             }
           }
         ],
@@ -69,7 +69,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -185,9 +185,23 @@
               "icon": "lucide-list",
               "title": "Outline of JavaScript Loops"
             }
+          },
+          {
+            "id": "481b64028588d44d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -202,17 +216,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false
     }
   },
   "active": "760f09cf65f4b4b0",
   "lastOpenFiles": [
+    "Reference/Python/Binary Numbers.md",
+    "templates/base template.md",
+    "Reference/Python/new fole.md",
+    "New file.md",
+    "Reference/Linux/Creating SSH key pairs.md",
+    "Reference/AWS/AWSAccountSetup.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Reference/git/Configuring rebase on pull.md",
+    "templates",
+    "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-17 - Day 24 | Normal Forms/2025-04-17 - Notes | Normal Forms.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Python/filesystem",
     "Reference/Python/Pytest/Filtering tests.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/other-notes/Python Logging.md",
-    "Reference/git/Configuring rebase on pull.md",
     "Reference/git/Git terminal commands.md",
     "Reference/git/Git Config.md",
     "Reference/git/Git Remotes.md",
@@ -231,20 +256,12 @@
     "Reference/Linux/Exit Codes.md",
     "Reference/Linux/Moving Files.md",
     "Reference/Linux/Getting Number of Bytes.md",
-    "Reference/Linux/Variables.md",
-    "Reference/Linux/ls command.md",
-    "Reference/Linux/Terminal Shell CLI.md",
-    "Reference/Linux/shebang.md",
-    "Reference/Linux/Permissions and ownership.md",
-    "Reference/Python/Getting a file basename base and extension.md",
-    "Reference/AWS/AWSAccountSetup.md",
     "Reference/Python/Pytest",
     "Reference/Wordpress",
     "Reference/Pulumi",
     "Reference/JavaScript/Node",
     "Reference/JavaScript/JavaScript DOM Manipulation.md.tmp.66481.1755433199479",
     "Old Notes to Sort Through and format/From old REFs folder/01. Slides/Array Methods.pdf",
-    "Reference/SQL",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }

@@ -1,0 +1,6 @@
+---
+created:
+tags:
+---
+# {{title}}
+

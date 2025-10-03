@@ -1,5 +1,14 @@
-Tags: #bash, #aws, #cli-commands, #aws-cli, #ssh, #authentication, #credentials
-
+---
+created: 2025-10-02T20:51:00
+tags:
+  - bash
+  - aws
+  - cli-commands
+  - aws-cli
+  - ssh
+  - authentication
+  - credentials
+---
 # AWS CLI authentication and credentials
 
 To create SSH keys, please see [[Creating SSH key pairs]]

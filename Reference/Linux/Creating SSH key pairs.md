@@ -1,4 +1,14 @@
-Tags: #linux #cli-commands  #bash #security #ssh #authentication 
+---
+created:
+tags:
+  - linux
+  - cli-commands
+  - bash
+  - security
+  - ssh
+  - authentication
+---
+# Creating SSH key pairs
 
 The Secure Shell Protocol is a cryptographic network protocol for operating network services securely over an unsecured network.
 ## Create an SSH key
