@@ -11,14 +11,10 @@
             "id": "4893daeba07915cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Python/Pytest/Python Testing Exceptions.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Python Testing Exceptions"
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +38,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -132,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Python/Pytest/Python Testing Exceptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Python Testing Exceptions"
+              "title": "Outgoing links"
             }
           },
           {
@@ -230,11 +225,16 @@
       "graph:Open graph view": false,
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "smart-connections:Smart Connections: Open random connection": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "4893daeba07915cc",
+  "active": "29548c005b28fff6",
   "lastOpenFiles": [
+    "Untitled 3.base",
+    "Untitled 4.base",
+    "Untitled 2.base",
+    "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/Python/Pytest/Python Testing Notes.md",
     "Reference/Python/Binary Numbers.md",
     "Reference/Python/Large Numbers.md",
@@ -243,7 +243,6 @@
     "Reference/Python/Parameters vs Arguments.md",
     "Reference/Python/Python Loops.md",
     "Reference/Python/RevertingLists.md",
-    "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Creating SSH key pairs.md",
     "Untitled 1.base",
@@ -264,15 +263,12 @@
     "Reference/git/Git Remotes.md",
     "Reference/Linux/Linux CLI commands for directories and files.md",
     "Reference/git/Git Trees and Blobs.md",
-    "Reference/neovim/Neovim.md",
     "Reference/neovim",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Screenshots",
     "Reference/Python/Pytest",
     "Reference/Wordpress",
-    "Reference/Pulumi",
-    "Reference/JavaScript/Node",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
