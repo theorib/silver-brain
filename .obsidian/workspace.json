@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "file": "Reference/Computer Science/The Four Pillars of OOP.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI authentication and credentials"
+              "title": "The Four Pillars of OOP"
             }
           }
         ]
@@ -64,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#git",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "file": "Reference/Computer Science/The Four Pillars of OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AWS CLI authentication and credentials"
+              "title": "Outgoing links from The Four Pillars of OOP"
             }
           },
           {
@@ -246,13 +236,23 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "SSH.md",
+    "Reference/Untitled.md",
+    "Reference/Computer Science/The Four Pillars of OOP.md",
+    "Reference/Computer Science",
+    "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
+    "Reference/git/Git Workflow Guidelines.md",
+    "Reference/git/Git Trees and Blobs.md",
+    "Reference/git/Git terminal commands.md",
+    "Reference/git/Configuring rebase on pull.md",
+    "Reference/git/Git Config.md",
+    "Reference/JavaScript/JavaScript Async Functions.md",
+    "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "SSH.md",
     "Untitled 1.base",
     "Untitled 3.base",
     "Untitled 4.base",
     "Untitled 2.base",
-    "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/Python/Pytest/Python Testing Notes.md",
     "Reference/Python/Binary Numbers.md",
     "Reference/Python/Large Numbers.md",
@@ -264,26 +264,16 @@
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Creating SSH key pairs.md",
     "Untitled.base",
-    "Reference/git/Git terminal commands.md",
     "templates/base template.md",
     "Reference/Python/new fole.md",
     "New file.md",
     "Reference/AWS/AWSAccountSetup.md",
-    "Reference/git/Configuring rebase on pull.md",
     "templates",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-17 - Day 24 | Normal Forms/2025-04-17 - Notes | Normal Forms.md",
     "Reference/Python/filesystem",
-    "Reference/Python/Pytest/Filtering tests.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/other-notes/Python Logging.md",
-    "Reference/git/Git Config.md",
-    "Reference/git/Git Remotes.md",
-    "Reference/Linux/Linux CLI commands for directories and files.md",
-    "Reference/git/Git Trees and Blobs.md",
     "Reference/neovim",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Screenshots",
-    "Reference/Python/Pytest",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
   ]
 }
