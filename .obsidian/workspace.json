@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2025-03-24 Notes | TDD"
             }
-          },
-          {
-            "id": "3696008a8f98fe37",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e8f63d03e45bcf4d",
@@ -245,8 +231,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3696008a8f98fe37",
+  "active": "4893daeba07915cc",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Reference/git/Configuring rebase on pull.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
     "Reference/Computer Science/The Four Pillars of OOP.md",
     "Reference/Untitled.md",
     "Reference/Computer Science",
@@ -254,16 +245,12 @@
     "Reference/git/Git Workflow Guidelines.md",
     "Reference/git/Git Trees and Blobs.md",
     "Reference/git/Git terminal commands.md",
-    "Reference/git/Configuring rebase on pull.md",
     "Reference/git/Git Config.md",
     "Reference/JavaScript/JavaScript Async Functions.md",
     "Reference/Python/Pytest/Python Testing Exceptions.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
     "SSH.md",
-    "Untitled 1.base",
-    "Untitled 3.base",
     "Untitled 4.base",
-    "Untitled 2.base",
     "Reference/Python/Pytest/Python Testing Notes.md",
     "Reference/Python/Binary Numbers.md",
     "Reference/Python/Large Numbers.md",
@@ -274,11 +261,9 @@
     "Reference/Python/RevertingLists.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Creating SSH key pairs.md",
-    "Untitled.base",
     "templates/base template.md",
     "Reference/Python/new fole.md",
     "New file.md",
-    "Reference/AWS/AWSAccountSetup.md",
     "templates",
     "Reference/Python/filesystem",
     "Reference/neovim",
