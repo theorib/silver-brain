@@ -1,4 +1,4 @@
-Tags: #lists #arrays #python #slicing #array_operations
+Tags: #lists #arrays #python #slicing #array-operations
 # Slicing Lists
 Slicing lists in python is very easy using the bracket notation. We can use any or all of the available parameters of start, stop and step:
 

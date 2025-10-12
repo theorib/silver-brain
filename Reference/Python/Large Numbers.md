@@ -1,4 +1,4 @@
-Tags: #python #float #maths #syntax #numbers #scientific_notation #large_numbers
+Tags: #python #float #maths #syntax #numbers #scientific-notation #large-numbers
 
 # Large Numbers and Scientific Notation
 

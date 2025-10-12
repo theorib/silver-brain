@@ -1,4 +1,4 @@
-#python #deleting #array_operations #lists 
+#python #deleting #array-operations #lists 
 
 # Deleting objects with `del`
 

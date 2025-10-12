@@ -1,4 +1,4 @@
-#python #file_manipulation #file_name
+#python #file-manipulation #file-name
 # Getting a file's basename and extension
 
 In Python, you can get a file's basename and extension from a path using `pathlib.Path`:

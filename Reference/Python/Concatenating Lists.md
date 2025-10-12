@@ -1,4 +1,4 @@
-Tags: #python #lists #arrays #contatenation #array_operations 
+Tags: #python #lists #arrays #contatenation #array-operations 
 
 # Concatenating Lists
 Concatenating lists in python is very easy with the `+` operator
