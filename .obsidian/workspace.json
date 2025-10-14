@@ -233,8 +233,9 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "ternary.md",
+    "Reference/Python/ternary expressions.md",
     "Reference/Computer Science/Statement vs Expression.md",
+    "ternary.md",
     "Reference/Computer Science/Functional Programming.md",
     "Side Effects.md",
     "Reference/Computer Science/Object-oriented Programming.md",
@@ -264,7 +265,6 @@
     "Reference/Python/Large Numbers.md",
     "Reference/Python/Modulo Operator.md",
     "Reference/Python/None Type.md",
-    "Reference/Python/Parameters vs Arguments.md",
     "templates",
     "Reference/Python/filesystem",
     "Reference/neovim",
