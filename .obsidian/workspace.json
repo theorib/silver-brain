@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Computer Science/Statement vs Expression.md",
+                "file": "Reference/Computer Science/First Class Functions vs Higher Order Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statement vs Expression"
+              "title": "First Class Functions vs Higher Order Functions"
             }
           }
         ]
@@ -233,8 +233,9 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/Python/ternary expressions.md",
     "Reference/Computer Science/Statement vs Expression.md",
+    "Reference/Computer Science/First Class Functions vs Higher Order Functions.md",
+    "Reference/Python/ternary expressions.md",
     "ternary.md",
     "Reference/Computer Science/Functional Programming.md",
     "Side Effects.md",
@@ -264,7 +265,6 @@
     "Reference/Python/Binary Numbers.md",
     "Reference/Python/Large Numbers.md",
     "Reference/Python/Modulo Operator.md",
-    "Reference/Python/None Type.md",
     "templates",
     "Reference/Python/filesystem",
     "Reference/neovim",
