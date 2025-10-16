@@ -90,3 +90,7 @@ Follow the onscreen prompts:
 aws configure sso
 ```
 
+To refresh an SSO login session use:
+```bash
+aws sso login
+```
