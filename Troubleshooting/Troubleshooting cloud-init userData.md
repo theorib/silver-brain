@@ -7,8 +7,8 @@ tags:
   - bash
   - user_data
 ---
-# Troubleshooting Linux [[cloud-init]] [[userData]]
-## Check if [[cloud-init]] completed
+# Troubleshooting Linux [[cloud-init cloud-config]] [[userData]]
+## Check if [[cloud-init cloud-config]] completed
 
 ```bash
 cloud-init status
@@ -26,7 +26,7 @@ sudo cat /var/log/cloud-init.log
 sudo cat /var/log/cloud-init-output.log
 ```
 
-## Check if [[cloud-init]] service ran
+## Check if [[cloud-init cloud-config]] service ran
 
 ```bash
 systemctl status cloud-init
