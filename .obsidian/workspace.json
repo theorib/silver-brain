@@ -248,6 +248,7 @@
   },
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
+    "Reference/Linux/cloud-init/cloud-init cloud-config.md",
     "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
     "Reference/Linux/cloud-init/cloud-init basics.md",
     "Reference/Linux/shebang.md",
@@ -257,7 +258,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Reference/Linux/cloud-init/cloud-init cloud-config.md",
     "Reference/Linux/more robust shell scripts error handling.md",
     "Reference/git/Git terminal commands.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",

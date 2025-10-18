@@ -14,4 +14,8 @@ tags:
 The main cloud-init configuration lives by default (in [[Ubuntu]]) at:
 `/etc/cloud/cloud.cfg` and is a YAML file
 
-If we examine that file we can see
+If we examine that file we can see the order in which operations happen.
+
+## configuration merging:
+
+source: [configuration merging](https://jen20.dev/post/cloudinit-configuration-merging/)
