@@ -1,5 +1,14 @@
-Tags: #linux #cloud-init #troubleshooting #dev-ops #bash
-## Check if cloud-init completed
+---
+tags:
+  - linux
+  - cloud-init
+  - troubleshooting
+  - dev-ops
+  - bash
+  - user_data
+---
+# Troubleshooting Linux [[cloud-init]] [[userData]]
+## Check if [[cloud-init]] completed
 
 ```bash
 cloud-init status
@@ -17,13 +26,13 @@ sudo cat /var/log/cloud-init.log
 sudo cat /var/log/cloud-init-output.log
 ```
 
-## Check if cloud-init service ran
+## Check if [[cloud-init]] service ran
 
 ```bash
 systemctl status cloud-init
 ```
 
-## Also check if the file exists:
+## Check if the file exists:
 
 ```bash
 ls -la /root/

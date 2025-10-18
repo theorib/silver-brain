@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
+                "file": "Reference/Linux/cloud-init.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI authentication and credentials"
+              "title": "cloud-init"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:userData",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,8 +233,12 @@
   },
   "active": "4893daeba07915cc",
   "lastOpenFiles": [
-    "Reference/AWS/AWSAccountSetup.md",
+    "Untitled 2.base",
+    "Troubleshooting/Troubleshooting cloud-init userData.md",
+    "Reference/Linux/cloud-init.md",
+    "Reference/git/Git terminal commands.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Reference/AWS/AWSAccountSetup.md",
     "Reference/Computer Science/First Class Functions vs Higher Order Functions.md",
     "Reference/Computer Science/Statement vs Expression.md",
     "Reference/Python/ternary expressions.md",
@@ -250,21 +254,16 @@
     "CLAUDE.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-24 - Day 6 | TDD/2025-03-24 Notes | TDD.md",
     "Untitled 3.base",
-    "Untitled 2.base",
     "Reference/Untitled.md",
     "Reference/Computer Science",
     "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
     "Reference/git/Git Workflow Guidelines.md",
     "Reference/git/Git Trees and Blobs.md",
-    "Reference/git/Git terminal commands.md",
     "Reference/git/Git Config.md",
     "Reference/JavaScript/JavaScript Async Functions.md",
     "Reference/Python/Pytest/Python Testing Exceptions.md",
     "SSH.md",
     "Untitled 4.base",
-    "Reference/Python/Pytest/Python Testing Notes.md",
-    "Reference/Python/Binary Numbers.md",
-    "Reference/Python/Large Numbers.md",
     "templates",
     "Reference/Python/filesystem",
     "Reference/neovim",
