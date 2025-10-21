@@ -29,3 +29,9 @@ Locally:
 ```bash
 claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY
 ```
+
+Adding Github MCP Server
+[installation instructions](https://github.com/github/github-mcp-server?tab=readme-ov-file)
+```bash
+claude mcp add --transport http github https://api.githubcopilot.com/mcp -H "Authorization: Bearer api"
+```
