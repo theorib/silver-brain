@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Claude Code MCP Servers.md",
+                "file": "Reference/Background Image with Opacity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Code MCP Servers"
+              "title": "Background Image with Opacity"
             }
           }
         ],
@@ -248,8 +248,10 @@
   },
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
-    "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
+    "Reference/Tailwind",
     "Reference/Claude Code MCP Servers.md",
+    "Reference/Background Image with Opacity.md",
+    "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
     "Reference/Linux/cloud-init/cloud-init basics.md",
     "Reference/Linux/cloud-init/cloud-init cloud-config.md",
     "Reference/Linux/shebang.md",
@@ -278,8 +280,6 @@
     "Untitled 3.base",
     "Reference/Untitled.md",
     "Reference/Computer Science",
-    "Reference/JavaScript/Husky & Git Hooks Setup Guide.md",
-    "Reference/git/Git Workflow Guidelines.md",
     "Untitled 4.base",
     "templates",
     "Reference/Python/filesystem",
