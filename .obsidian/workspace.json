@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Background Image with Opacity.md",
+                "file": "Reference/CSS/Troubleshooting CSS Layering Stacking Contexts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Background Image with Opacity"
+              "title": "Troubleshooting CSS Layering Stacking Contexts"
             }
           }
         ],
@@ -248,9 +248,11 @@
   },
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
+    "Reference/Background Image with Opacity.md",
+    "Reference/CSS/Troubleshooting CSS Layering Stacking Contexts.md",
+    "Reference/CSS",
     "Reference/Tailwind",
     "Reference/Claude Code MCP Servers.md",
-    "Reference/Background Image with Opacity.md",
     "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
     "Reference/Linux/cloud-init/cloud-init basics.md",
     "Reference/Linux/cloud-init/cloud-init cloud-config.md",
@@ -282,8 +284,6 @@
     "Reference/Computer Science",
     "Untitled 4.base",
     "templates",
-    "Reference/Python/filesystem",
-    "Reference/neovim",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
