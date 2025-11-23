@@ -25,13 +25,14 @@
             "id": "a42aea37c82d9bba",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 3.base",
-                "viewName": "Table"
+                "file": "Reference/Pulumi/Pulumi.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled 3"
+              "icon": "lucide-file",
+              "title": "Pulumi"
             }
           }
         ],
@@ -68,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pulumi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,8 +249,8 @@
   },
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
-    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest-reverse.md",
     "Untitled 3.base",
+    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest-reverse.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest.md",
     "Reference/Claude Code MCP Servers.md",
     "Reference/CSS/Troubleshooting CSS Layering Stacking Contexts.md",
@@ -280,7 +281,6 @@
     "Reference/Computer Science/Object-oriented Programming.md",
     "Reference/Python/filesystem/pathlib.md",
     "Reference/git/Configuring rebase on pull.md",
-    "CLAUDE.md",
     "Reference/Computer Science",
     "Untitled 4.base",
     "templates",
