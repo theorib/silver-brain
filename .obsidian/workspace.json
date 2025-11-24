@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Pulumi/Pulumi.md",
+                "file": "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pulumi"
+              "title": "Pulumi with native ESM modules and TypeScript"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pulumi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e8f63d03e45bcf4d",
@@ -249,6 +248,8 @@
   },
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
+    "Reference/Pulumi/Pulumi.md",
+    "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
     "Untitled 3.base",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest-reverse.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest.md",
@@ -280,7 +281,6 @@
     "Side Effects.md",
     "Reference/Computer Science/Object-oriented Programming.md",
     "Reference/Python/filesystem/pathlib.md",
-    "Reference/git/Configuring rebase on pull.md",
     "Reference/Computer Science",
     "Untitled 4.base",
     "templates",
