@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
+                "file": "Reference/Making forms accessible to Password Managers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pulumi with native ESM modules and TypeScript"
+              "title": "Making forms accessible to Password Managers"
             }
           }
         ],
@@ -249,6 +249,7 @@
   "active": "a42aea37c82d9bba",
   "lastOpenFiles": [
     "Reference/Pulumi/Pulumi.md",
+    "Reference/Making forms accessible to Password Managers.md",
     "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
     "Untitled 3.base",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest-reverse.md",
@@ -280,7 +281,6 @@
     "Reference/Computer Science/Functional Programming.md",
     "Side Effects.md",
     "Reference/Computer Science/Object-oriented Programming.md",
-    "Reference/Python/filesystem/pathlib.md",
     "Reference/Computer Science",
     "Untitled 4.base",
     "templates",
