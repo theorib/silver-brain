@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Making forms accessible to Password Managers"
             }
+          },
+          {
+            "id": "0be6571f1f0c30d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/Astro Polymorphic Components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Astro Polymorphic Components"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -246,8 +260,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a42aea37c82d9bba",
+  "active": "0be6571f1f0c30d7",
   "lastOpenFiles": [
+    "Untitled 5.base",
+    "Reference/Astro Polymorphic Components.md",
+    "Untitled 4.base",
     "Reference/Pulumi/Pulumi.md",
     "Reference/Making forms accessible to Password Managers.md",
     "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
@@ -279,11 +296,7 @@
     "Reference/Python/ternary expressions.md",
     "ternary.md",
     "Reference/Computer Science/Functional Programming.md",
-    "Side Effects.md",
-    "Reference/Computer Science/Object-oriented Programming.md",
     "Reference/Computer Science",
-    "Untitled 4.base",
-    "templates",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
