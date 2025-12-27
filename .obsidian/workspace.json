@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "62375fcf64687c84",
+        "id": "7ef847bd8cb5b7ed",
         "type": "tabs",
         "children": [
           {
-            "id": "4893daeba07915cc",
+            "id": "8bc5725155a77c29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Linux/cloud-init/cloud-init installing docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "cloud-init installing docker"
-            }
-          },
-          {
-            "id": "a42aea37c82d9bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Making forms accessible to Password Managers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Making forms accessible to Password Managers"
-            }
-          },
-          {
-            "id": "0be6571f1f0c30d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Astro Polymorphic Components.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Astro Polymorphic Components"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,13 +227,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0be6571f1f0c30d7",
+  "active": "8bc5725155a77c29",
   "lastOpenFiles": [
-    "Untitled 5.base",
+    "Reference/Linux/cloud-init/cloud-init installing docker.md",
+    "Reference/Making forms accessible to Password Managers.md",
+    "Reference/git/Git Workflow Guidelines.md",
     "Reference/Astro Polymorphic Components.md",
+    "Untitled 5.base",
     "Untitled 4.base",
     "Reference/Pulumi/Pulumi.md",
-    "Reference/Making forms accessible to Password Managers.md",
     "Reference/Pulumi/Pulumi with native ESM modules and TypeScript.md",
     "Untitled 3.base",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/React Testing Library with Jest : Vitest-reverse.md",
@@ -281,7 +250,6 @@
     "Reference/Linux/cloud-init/cloud-init basics.md",
     "Reference/Linux/cloud-init/cloud-init cloud-config.md",
     "Reference/Linux/shebang.md",
-    "Reference/Linux/cloud-init/cloud-init installing docker.md",
     "Reference/Linux/cloud-init/Troubleshooting cloud-init userData.md",
     "Reference/Linux/cloud-init",
     "Untitled 2.base",
