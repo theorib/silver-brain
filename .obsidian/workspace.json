@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recursion",
+                "query": "recurs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,7 +245,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,8 +263,13 @@
   },
   "active": "d808e1532a84c611",
   "lastOpenFiles": [
-    "Recursion.md",
+    "Reference/Python/filesystem/Creating directories.md",
+    "Reference/Linux/Finding Files.md",
     "Reference/Computer Science/Functional Programming.md",
+    "Reference/Linux/Permissions and ownership.md",
+    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!-Reverse.md",
+    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!.md",
+    "Recursion.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Thoughts on Code Documentation.md",
     "Untitled 5.base",
@@ -292,11 +298,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Reference/Linux/more robust shell scripts error handling.md",
-    "Reference/git/Git terminal commands.md",
-    "Reference/AWS/AWS CLI authentication and credentials.md",
-    "Reference/AWS/AWSAccountSetup.md",
-    "Reference/Computer Science/First Class Functions vs Higher Order Functions.md",
     "Reference/Computer Science",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
