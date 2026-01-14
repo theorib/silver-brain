@@ -35,3 +35,8 @@ Adding Github MCP Server
 ```bash
 claude mcp add --transport http github https://api.githubcopilot.com/mcp -H "Authorization: Bearer api"
 ```
+
+## Adding the TanStack MCP Server
+```bash
+claude mcp add tanstack_mcp --scope user --transport http https://tanstack.com/api/mcp
+```

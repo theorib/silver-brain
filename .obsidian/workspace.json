@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
+                "file": "Reference/Claude Code MCP Servers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-31 - Notes | Recursion"
+              "title": "Claude Code MCP Servers"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recurs",
+                "query": "claude code",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,6 +263,7 @@
   },
   "active": "d808e1532a84c611",
   "lastOpenFiles": [
+    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Finding Files.md",
     "Reference/Computer Science/Functional Programming.md",
@@ -270,7 +271,6 @@
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!-Reverse.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!.md",
     "Recursion.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Thoughts on Code Documentation.md",
     "Untitled 5.base",
     "Reference/Linux/cloud-init/cloud-init installing docker.md",
