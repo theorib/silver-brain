@@ -55,3 +55,16 @@ WHERE LOWER(city) ='sql city';
 ```
 
 Otherwise you can use the `UPPER()` function to transform the result to upper case.
+
+## Decimal Division
+To do decimal division, ensure that one of the numbers is multiplied by `1.0` which will transform everything in to decimal:
+
+```sql
+SELECT COUNT(
+	CASE
+  		WHEN last_statement LIKE '%innocent%' THEN 1
+  		ELSE null
+  	END
+) * 1.0 / COUNT(*) as ' inmates with claims of innocence'
+FROM executions
+```
