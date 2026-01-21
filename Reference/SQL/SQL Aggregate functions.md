@@ -21,3 +21,14 @@ calculates the average of the specified column values
 
 ## COUNT​
 counts the number of specified column values
+
+```sql
+SELECT MIN(ex_age),MAX(ex_age), AVG(ex_age) FROM executions;
+```
+
+## Composing functions
+Example, getting the average character length of last_statements:
+```sql
+SELECT AVG(LENGTH(last_statement))
+FROM executions;
+```

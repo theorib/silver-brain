@@ -4,65 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7ef847bd8cb5b7ed",
+        "id": "42413f2a3df063c8",
         "type": "tabs",
         "children": [
           {
-            "id": "8bc5725155a77c29",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled 5.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled 5"
-            }
-          },
-          {
-            "id": "235020821238926c",
+            "id": "f0f6b61c2bfd84d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Computer Science/Functional Programming.md",
+                "file": "Reference/SQL/SQL CASE (Switch statements).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functional Programming"
+              "title": "SQL CASE (Switch statements)"
             }
           },
           {
-            "id": "d808e1532a84c611",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled 8.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled 8"
-            }
-          },
-          {
-            "id": "9d7cd67c259591d0",
+            "id": "045f7f54e408b9d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL Case (Switch statements).md",
+                "file": "Reference/SQL/SQL Aggregate functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Case (Switch statements)"
+              "title": "SQL Aggregate functions"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,43 +247,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d7cd67c259591d0",
+  "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
+    "SQL Chek for NULL.md",
+    "Reference/SQL/SQL CASE (Switch statements).md",
+    "Untitled 10.base",
+    "Untitled 9.base",
+    "Untitled 6.base",
+    "Untitled 5.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Reference/SQL/SQL Aggregate functions.md",
+    "Reference/Computer Science/Functional Programming.md",
     "Untitled 8.base",
-    "SQL Case (Switch statements).md",
     "Untitled 7.base",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-14 - Day 21 | SQL/2025-04-14 - Notes | SQL.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-15 - Day 22 | SQL 2/2025-04-14 - Notes | SQL 2.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/other-notes/SQL.md",
     "Reference/SQL/SQL Sort order.md",
-    "Reference/SQL/SQL Aggregate functions.md",
     "Reference/SQL/SQL Snippets.md",
     "Reference/SQL/SQLite Snippets.md",
-    "Untitled 6.base",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-toolkit/2025-05-15 - Day 41 | Orchestration/2025-05-15 - Day 41 | Orchestration.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-toolkit/2025-05-13 - Day 39 | Query Optimization/2025-05-13 - Day 39 | Query Optimization.md",
     "Reference/Claude Code MCP Servers.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Finding Files.md",
-    "Reference/Computer Science/Functional Programming.md",
     "Reference/Linux/Permissions and ownership.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!-Reverse.md",
     "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!.md",
     "Recursion.md",
     "Thoughts on Code Documentation.md",
-    "Untitled 5.base",
     "Reference/Linux/cloud-init/cloud-init installing docker.md",
     "Reference/Making forms accessible to Password Managers.md",
     "Reference/git/Git Workflow Guidelines.md",
     "Reference/Astro Polymorphic Components.md",
-    "Untitled 4.base",
     "Reference/Pulumi/Pulumi.md",
-    "Untitled 3.base",
-    "Reference/CSS",
-    "Reference/Tailwind",
-    "Reference/Linux/cloud-init",
-    "Untitled 2.base",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
