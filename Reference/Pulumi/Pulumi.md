@@ -23,4 +23,9 @@ Cloudflare:
 ```bash
 pulumi config set --secret cloudflare:apiToken YOUR_CLOUDFLARE_API_TOKEN
 ```
-	
+
+## Getting Pulumi output with secrets
+
+```bash
+pulumi stack output --show-secrets
+```

@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "Pulumi"
             }
-          },
-          {
-            "id": "1cd52afa248adc37",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,7 +247,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1cd52afa248adc37",
+  "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
     "Untitled 11.base",
     "Reference/Linux/Creating SSH key pairs.md",
