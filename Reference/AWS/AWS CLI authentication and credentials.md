@@ -19,7 +19,7 @@ code ~/.aws/credentials
 
 ## Listing profiles
 ```bash
-aws configure list-profiles
+	aws configure list-profiles
 ```
 ## Creating a new Profile
 ```bash

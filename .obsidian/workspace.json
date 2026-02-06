@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Pulumi/Pulumi.md",
+                "file": "Reference/AWS/AWS CLI authentication and credentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pulumi"
+              "title": "AWS CLI authentication and credentials"
             }
           }
         ],
@@ -249,6 +249,7 @@
   },
   "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
+    "Reference/Pulumi/Pulumi.md",
     "Untitled 11.base",
     "Reference/Linux/Creating SSH key pairs.md",
     "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
