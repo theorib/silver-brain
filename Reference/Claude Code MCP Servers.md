@@ -43,5 +43,5 @@ claude mcp add tanstack_mcp --scope user --transport http https://tanstack.com/a
 
 ## Adding the Reactive Resume MCP server:
 ```bash
-claude mcp add --scope project --transport http reactive-resume-mcp https://rxresu.me/mcp --header "x-api-key: some_api_key"
+claude mcp add --scope project --transport http reactive_resume_mcp https://rxresu.me/mcp --header "x-api-key: some_api_key"
 ```
