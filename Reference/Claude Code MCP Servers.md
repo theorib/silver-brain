@@ -40,3 +40,8 @@ claude mcp add --transport http github https://api.githubcopilot.com/mcp -H "Aut
 ```bash
 claude mcp add tanstack_mcp --scope user --transport http https://tanstack.com/api/mcp
 ```
+
+## Adding the Reactive Resume MCP server:
+```bash
+claude mcp add --scope project --transport http reactive-resume-mcp https://rxresu.me/mcp --header "x-api-key: some_api_key"
+```
