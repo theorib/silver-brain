@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Claude Code MCP Servers.md",
+                "file": "Reference/Linux/Linux CLI commands for directories and files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Code MCP Servers"
+              "title": "Linux CLI commands for directories and files"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "claude mcp",
+                "query": "symlink",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -250,8 +250,9 @@
   },
   "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
-    "CLAUDE.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
+    "Reference/Claude Code MCP Servers.md",
+    "CLAUDE.md",
     "Reference/Pulumi/Pulumi.md",
     "Untitled 11.base",
     "Reference/Linux/Creating SSH key pairs.md",
@@ -280,7 +281,6 @@
     "Reference/SQL/SQLite Snippets.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-toolkit/2025-05-15 - Day 41 | Orchestration/2025-05-15 - Day 41 | Orchestration.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-toolkit/2025-05-13 - Day 39 | Query Optimization/2025-05-13 - Day 39 | Query Optimization.md",
-    "Reference/Claude Code MCP Servers.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Finding Files.md",
