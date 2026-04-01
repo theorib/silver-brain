@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Linux CLI commands for directories and files"
             }
+          },
+          {
+            "id": "9b24a46bcd1a195f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/Python/Codesignal Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Codesignal Notes"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "symlink",
+                "query": "read file",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +104,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e8f63d03e45bcf4d",
@@ -248,8 +261,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "045f7f54e408b9d7",
+  "active": "9b24a46bcd1a195f",
   "lastOpenFiles": [
+    "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-07 - Day 16 | File IO/2025-04-07 - Notes | File IO.md",
+    "Reference/Python/Codesignal Notes.md",
     "Reference/AWS/AWS CLI authentication and credentials.md",
     "Reference/Claude Code MCP Servers.md",
     "CLAUDE.md",
@@ -284,8 +299,6 @@
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-03-31 - Day 11 | Recursion/2025-03-31 - Notes | Recursion.md",
     "Reference/Python/filesystem/Creating directories.md",
     "Reference/Linux/Finding Files.md",
-    "Reference/Linux/Permissions and ownership.md",
-    "Old Notes to Sort Through and format/From old REFs folder/Course Notes/The Complete JavaScript Course 2024- From Zero to Expert!-Reverse.md",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
