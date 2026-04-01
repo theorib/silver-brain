@@ -43,3 +43,30 @@ for num in range(5): # This line will print numbers from 0 to 4
 `.strip()` remove any whitespace characters from beginning and end of a string
 `.lstrip()`remove any whitespace characters from beginning of a string
 `.rstrip()`remove any whitespace characters from end of a string
+
+
+### Manipulating and loping numbers only through math
+Reversing Digits using only Math, for example 12345 becomes 54321:
+```python
+def solution(n):
+	result = 0
+
+	while n > 0:
+		digit = n % 10 # get the last digit
+		result = result * 10 + digit # Adds the last digit as the first
+		n = n // 10 # Remove the last digit
+	
+	return result
+```
+
+summing up all the even digits:
+````python
+def solution(n):
+    digit_sum = 0
+    while n > 0:
+        digit = n % 10
+        if digit % 2 == 0:  # Check if the digit is even
+            digit_sum += digit
+        n = n // 10  # Remove the last digit
+    return digit_sum
+```
