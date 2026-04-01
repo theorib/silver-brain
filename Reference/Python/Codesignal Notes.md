@@ -38,3 +38,8 @@ for num in range(5): # This line will print numbers from 0 to 4
 
 `.islower()` check if a string is lowercase
 `.isupper()` check if a string is uppercase
+
+### Manipulating strings
+`.strip()` remove any whitespace characters from beginning and end of a string
+`.lstrip()`remove any whitespace characters from beginning of a string
+`.rstrip()`remove any whitespace characters from end of a string
