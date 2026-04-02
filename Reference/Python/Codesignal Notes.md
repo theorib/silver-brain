@@ -92,6 +92,6 @@ for i in range(middle):
 print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ```
 
-### Formula for looping through a list:
+### Formula for cycling through a list and going back to the beginning when index + 1 is bigger than the length:
 
 `(i + step) % length` notice the parenthesis which is crucial
