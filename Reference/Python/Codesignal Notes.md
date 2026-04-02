@@ -102,7 +102,8 @@ def iterateMiddleToEnd(numbers):
   mid = len(numbers) // 2 + len(numbers) % 2 
   left = mid - 1
   right = mid + 1
-  new_order = [numbers[mid]]
+  new_order = [numbers[mid]] if len(numbers) % 2 == 1 else []
+  
   while left >= 0 and right < len(numbers):
     new_order.append(numbers[left])
     new_order.append(numbers[right])
