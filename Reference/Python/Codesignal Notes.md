@@ -73,10 +73,10 @@ def solution(n):
 
 ### Getting the middle element of a list
 
-We first do a floor division of the length by 2. If the number is even, it will be exactly the left-most middle item. If the number is odd, we are in the wrong number. To solve this, we add the remainder of dividing the list length by 2. if The length was even, this remainder will be 0 so nothing changes, if the length was odd, it will be one which we will add to the middle number we got before landing us right in the middle.
+This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length
 ```python
 arr = [1,2,3,4,5]
-middle = len(arr) // 2 + len(arr) % 2
+middle = len(arr) // 2
 ```
 
 ### Getting the opposite equivalent indexed element in a list
