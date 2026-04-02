@@ -52,7 +52,7 @@ def solution(n):
 	result = 0
 
 	while n > 0:
-		digit = n % 10 # get the last digit
+		digit = n % 10 # get the last di
 		result = result * 10 + digit # Adds the last digit as the first
 		n = n // 10 # Remove the last digit
 	
@@ -60,7 +60,7 @@ def solution(n):
 ```
 
 summing up all the even digits:
-````python
+```python
 def solution(n):
     digit_sum = 0
     while n > 0:
@@ -69,4 +69,25 @@ def solution(n):
             digit_sum += digit
         n = n // 10  # Remove the last digit
     return digit_sum
+```
+
+### Getting the middle element of a list
+
+We first do a floor division of the length by 2. If the number is even, it will be exactly the left-most middle item. If the number is odd, we are in the wrong number. To solve this, we add the remainder of dividing the list length by 2. if The length was even, this remainder will be 0 so nothing changes, if the length was odd, it will be one which we will add to the middle number we got before landing us right in the middle.
+```python
+arr = [1,2,3,4,5]
+middle = len(arr) // 2 + len(arr) % 2
+```
+
+### Getting the opposite equivalent indexed element in a list
+```python
+arr = [1,2,3,4,5]
+opposite_pairs = []
+middle = len(arr) // 2 + len(arr) % 2
+# The formula is:
+# length - 1 - i
+for i in range(middle):
+	opposite_pairs.append(arr[i], arr[len(arr) - 1 - i])
+	
+print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ```
