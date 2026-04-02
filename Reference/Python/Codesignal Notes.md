@@ -95,3 +95,39 @@ print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ### Formula for cycling through a list and going back to the beginning when index + 1 is bigger than the length:
 
 `(i + step) % length` notice the parenthesis which is crucial
+
+
+```python
+def iterateMiddleToEnd(numbers):
+  mid = len(numbers) // 2 + len(numbers) % 2 
+  left = mid - 1
+  right = mid + 1
+  new_order = [numbers[mid]]
+  while left >= 0 and right < len(numbers):
+    new_order.append(numbers[left])
+    new_order.append(numbers[right])
+    left -= 1
+    right += 1   
+  return new_order
+```
+
+```python
+def iterateMiddleToEnd(numbers):
+    mid = len(numbers) // 2 # Middle index if odd; right-middle index if even
+    if len(numbers) % 2 == 1:
+        left = mid - 1 # The left to the middle element
+        right = mid + 1 # The right to the middle element
+        new_order = [numbers[mid]] # Adding the middle element to the resulting array
+    else:
+        left = mid - 1 # Left middle element
+        right = mid # Right middle element
+        new_order = [] # No elements in the resulting array for now
+
+    while left >= 0 and right < len(numbers):
+        new_order.append(numbers[left])
+        new_order.append(numbers[right])
+        left -= 1
+        right += 1
+            
+    return new_order
+```
