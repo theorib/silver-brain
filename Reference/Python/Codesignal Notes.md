@@ -166,3 +166,7 @@ def solution(s):
     
     return groups
 ```
+
+### Letters in the alphabet:
+26
+abcdefghijklmnopqrstuvwxyz
