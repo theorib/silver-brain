@@ -141,3 +141,28 @@ or. a more pythonic way
 ```python
 reversed(range(len(some_list)))
 ```
+
+
+### Counting consecutive string characters without a dictionary or set:
+
+```python
+def solution(s):
+    groups = []
+    current_group_char = None
+    current_group_length = 0
+
+    for char in s:
+        if char.isalnum():
+            if char == current_group_char:
+                current_group_length += 1
+            else:
+                if current_group_char is not None:
+                    groups.append((current_group_char, current_group_length))
+                current_group_char = char
+                current_group_length = 1
+                
+    if current_group_char is not None: # necessary to add the last group to the result
+        groups.append((current_group_char, current_group_length))
+    
+    return groups
+```
