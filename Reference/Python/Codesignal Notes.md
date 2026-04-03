@@ -132,3 +132,12 @@ def iterateMiddleToEnd(numbers):
             
     return new_order
 ```
+
+### Reversing a range in python:
+```python
+range(len(some_list) - 1, -1, -1)
+```
+or. a more pythonic way
+```python
+reversed(range(len(some_list)))
+```
