@@ -73,7 +73,7 @@ def solution(n):
 
 ### Getting the middle element of a list
 
-This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length
+This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length. It gives you the index directly, not a count.
 ```python
 arr = [1,2,3,4,5]
 middle = len(arr) // 2
