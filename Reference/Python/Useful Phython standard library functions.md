@@ -39,3 +39,8 @@ itertools.chain()
 string.ascii_lowercase
 
 `divmod(a, b)` This small function returns a tuple containing both the quotient and the remainder: `(a // b, a % b)`.
+
+```python
+"".join(reversed("Hello, World!"))
+# !dlroW ,olleH'
+```
