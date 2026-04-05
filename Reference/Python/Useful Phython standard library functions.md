@@ -27,3 +27,15 @@ print(queue) # deque(['a', 'b'])
 
 
 ## itertools.
+
+## `@lru_cache(None)`
+
+**`math.inf`**: Use this for initializing "minimum" variables: `min_val = math.inf`. It's cleaner than using a random large number like `999999`.
+
+itertools.accumulate()
+
+itertools.chain()
+
+string.ascii_lowercase
+
+`divmod(a, b)` This small function returns a tuple containing both the quotient and the remainder: `(a // b, a % b)`.
