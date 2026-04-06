@@ -5,10 +5,12 @@ tags:
 # Useful Phython standard library functions
 
 ## `collections.Counter`
+creates a counter object prioritising the order in which elements were passed to it so if there are two elements with the same count, the first instance that entered the count will be the first one to be presented in a `.most_common()` method.
 ```python
 from collections import Counter
 
 print(Counter(['a','b','c','a','a'])) # Counter({'a': 3, 'b': 1, 'c': 1})
+print(Counter('wxxyyz').most_common(1)) # [('x', 2)]
 
 ```
 
