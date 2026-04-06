@@ -199,3 +199,26 @@ def solution(orig_strs, substrs):
     return result_arr
 ```
 
+
+### Get most common character in odd length words:
+```python
+from collections import Counter
+
+def solution(sentence):
+    # initialize result
+    result = ''
+    # split sentence into words
+    # loop through words
+    for word in sentence.split():
+        # if a word has an odd len:
+        if len(word) % 2 != 0:
+            # make the word lowercase
+            word = word.lower()
+            # get most used character if tie, get first char
+            char = Counter(word).most_common(1)[0][0]
+            # add char to result
+            result += char
+    # return result
+    return result
+    
+```
