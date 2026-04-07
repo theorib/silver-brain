@@ -222,3 +222,61 @@ def solution(sentence):
     return result
     
 ```
+
+### Multiplying very large numbers as strings
+```python
+def sum(num1, num2):
+    i, j, carry, res = len(num1) - 1, len(num2) - 1, 0, []
+
+    while i >= 0 or j >= 0 or carry > 0:
+        n1 = int(num1[i]) if i >= 0 else 0
+        n2 = int(num2[j]) if j >= 0 else 0
+        total = n1 + n2 + carry
+        if total > 9:
+            carry = 1
+        else:
+            carry = 0
+        curr = total%10
+        res.append(str(curr))
+        i, j = i - 1, j - 1
+
+    return ''.join(res[::-1])
+
+def solution(num1: str, num2: str):
+    j = len(num2) - 1
+    carry = 0
+    current = ''
+    to_sum = []
+    
+    while j >= 0:
+        i = len(num1) - 1
+        num_j = int(num2[j])
+        
+        while i >= 0:
+            num_i = int(num1[i])
+            if i == 0:
+                current = str(num_j * num_i + carry) + current
+                carry = 0
+                break
+            else:
+                current = str((num_j * num_i + carry) % 10) + current
+                carry = (num_j * num_i + carry) // 10
+                i -= 1
+                
+        if j < len(num2) - 1:
+            current += '0' * (len(num1) - 1 - j)
+        to_sum.append(current)
+        current = ''
+        carry = 0
+        j -= 1
+    
+    if len(to_sum) <= 2:
+        return to_sum[0] if len(to_sum) else '0'
+    
+    result = to_sum[0]
+    
+    for i in range(1, len(to_sum)):
+        result = sum(to_sum[i], result)
+        
+    return result
+```
