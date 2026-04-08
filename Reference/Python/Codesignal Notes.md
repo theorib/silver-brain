@@ -96,6 +96,14 @@ print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 
 `(i + step) % length` notice the parenthesis which is crucial
 
+### Formula to cycle through `ord()` numbers of lowercase characters:
+```python
+char = 'a'
+offset = -3
+min_ascii = ord('a')
+max_ascii = ord('z')
+result = ((ord(char) + offset - min_ascii) % (max_ascii - min_ascii + 1) + min_ascii
+```
 
 ```python
 def iterateMiddleToEnd(numbers):
