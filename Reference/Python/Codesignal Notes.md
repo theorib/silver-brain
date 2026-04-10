@@ -51,6 +51,26 @@ list(counter.items()) # [('a', 4), ('b', 2), ('c', 3), ('z', 1)]
 ```
 
 
+## `itertools.zip_longest()`
+```python
+from itertools import zip_longest
+result = zip_longest(['a', 'b', 'c'], [1, 2, 3, 4]) # <itertools.zip_longest object at 0x100ae90d0>
+list(result) # [('a', 1), ('b', 2), ('c', 3), (None, 4)]
+```
+
+## `divmod()`
+```python
+floor_division, remainder = divmod(15, 10) # 1, 5
+```
+
+## Padding numbers in a string:
+```python
+hours = 1
+minutes = 22
+seconds = 5
+time_stamp = f'{hours:02d}:{minutes:02d}:{seconds:02d}' # 01:22:05
+```
+
 ## String operations
 
 ### Upper and lower cases
