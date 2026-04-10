@@ -4,15 +4,50 @@ tags:
 ---
 # CodeSignal Notes
 
-Lists are mutable, strings are immutable.
-
-When slicing lists, the `start` is **inclusive** and the `end` index is **exclusive**.
-
-`my_list.index(8) if 8 in my_list else -1`
-
-Range function: 
+## Quick Debugging and printing multiple variables:
 ```python
-for num in range(5): # This line will print numbers from 0 to 4
+print(f'inner loop: {locals()}')
+```
+
+## Getting the middle element of a list
+
+This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length. It gives you the index directly, not a count.
+```python
+arr = [1,2,3,4,5]
+middle = len(arr) // 2
+```
+
+## Cycling (cycle, rotation or rotating) through a list and going back to the beginning:
+
+`(i + step) % length` notice the parenthesis which is crucial
+
+## Cycling (cycle, rotation or rotating) through `ord()` numbers of lowercase characters:
+```python
+char = 'a'
+offset = -3
+min_ascii = ord('a')
+max_ascii = ord('z')
+result = ((ord(char) + offset - min_ascii) % (max_ascii - min_ascii + 1) + min_ascii
+```
+
+## Reversing a range in python:
+```python
+range(len(some_list) - 1, -1, -1)
+```
+or. a more pythonic way
+```python
+reversed(range(len(some_list)))
+```
+
+## `collections.Counter`
+creates a counter object prioritising the order in which elements were passed to it so if there are two elements with the same count, the first instance that entered the count will be the first one to be presented in a `.most_common()` method.
+```python
+from collections import Counter
+
+counter = Counter(['a', 'b', 'c', 'c', 'a', 'a', 'c', 'b', 'z', 'a']) # Counter({'a': 4, 'c': 3, 'b': 2, 'z': 1})
+counter.most_common(1) # [('a', 4)]
+counter.most_common(2) # [('a', 4), ('c', 3)]
+list(counter.items()) # [('a', 4), ('b', 2), ('c', 3), ('z', 1)]
 ```
 
 
@@ -71,13 +106,6 @@ def solution(n):
     return digit_sum
 ```
 
-### Getting the middle element of a list
-
-This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length. It gives you the index directly, not a count.
-```python
-arr = [1,2,3,4,5]
-middle = len(arr) // 2
-```
 
 ### Getting the opposite equivalent indexed element in a list
 ```python
@@ -92,18 +120,9 @@ for i in range(middle):
 print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ```
 
-### Formula for cycling (cycle or rotation) through a list and going back to the beginning when index + 1 is bigger than the length:
 
-`(i + step) % length` notice the parenthesis which is crucial
 
-### Formula to cycle through `ord()` numbers of lowercase characters:
-```python
-char = 'a'
-offset = -3
-min_ascii = ord('a')
-max_ascii = ord('z')
-result = ((ord(char) + offset - min_ascii) % (max_ascii - min_ascii + 1) + min_ascii
-```
+## other
 
 ```python
 def iterateMiddleToEnd(numbers):
@@ -141,14 +160,6 @@ def iterateMiddleToEnd(numbers):
     return new_order
 ```
 
-### Reversing a range in python:
-```python
-range(len(some_list) - 1, -1, -1)
-```
-or. a more pythonic way
-```python
-reversed(range(len(some_list)))
-```
 
 
 ### Counting consecutive string characters without a dictionary or set:
