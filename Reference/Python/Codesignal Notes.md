@@ -71,6 +71,21 @@ seconds = 5
 time_stamp = f'{hours:02d}:{minutes:02d}:{seconds:02d}' # 01:22:05
 ```
 
+## `collections.deque()`
+```python
+from collections import deque
+
+double_ended_queue = deque(['b', 'c', 'd']) # deque(['b', 'c', 'd'])
+double_ended_queue.append('e') # deque(['b', 'c', 'd', 'e'])
+double_ended_queue.extend(['f', 'g']) # deque(['b', 'c', 'd', 'e', 'f', 'g'])
+double_ended_queue.pop() # 'g'
+double_ended_queue.appendleft('a') # deque(['a', 'b', 'c', 'd', 'e', 'f'])
+double_ended_queue.extendleft([7, 8, 9]) # deque([9, 8, 7, 'a', 'b', 'c', 'd', 'e', 'f']) ! NOTICE HOW EXTENDED LIST VALUES ARE INVERTED
+double_ended_queue.popleft() # 9
+double_ended_queue.rotate() # deque(['f', 8, 7, 'a', 'b', 'c', 'd', 'e'])
+double_ended_queue.rotate(-1) # deque([8, 7, 'a', 'b', 'c', 'd', 'e', 'f'])
+```
+
 ## String operations
 
 ### Upper and lower cases

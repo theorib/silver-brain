@@ -25,7 +25,7 @@ queue.appendleft('a')
 print(queue) # deque(['a', 'b'])
 ```
 
-## `collections.defaultdict`
+## `collections.defaultdict()`
 
 
 ## `@lru_cache(None)`
