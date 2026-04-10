@@ -35,7 +35,8 @@
               "title": "Useful Phython standard library functions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,10 +247,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "045f7f54e408b9d7",
+  "active": "abc285d4b4a3bfdf",
   "lastOpenFiles": [
-    "Reference/Python/Useful Phython standard library functions.md",
     "Reference/Python/CodeSignal Notes.md",
+    "Reference/Python/Useful Phython standard library functions.md",
     "Reference/Linux/Linux CLI commands for directories and files.md",
     "Reference/Python/Concatenating Lists.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/python-fundamentals/2025-04-07 - Day 16 | File IO/2025-04-07 - Notes | File IO.md",
