@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/Useful Phython standard library functions.md",
+                "file": "Reference/Python/CodeSignal Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Phython standard library functions"
+              "title": "CodeSignal Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,11 +247,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "045f7f54e408b9d7",
+  "active": "abc285d4b4a3bfdf",
   "lastOpenFiles": [
-    "Mathematical Foundations for Computing/2026-04-12.md",
+    "Reference/Python/Modulo Operator.md",
     "Reference/Python/Useful Phython standard library functions.md",
     "Mathematical Foundations for Computing/2026-04-11.md",
+    "Mathematical Foundations for Computing/2026-04-12.md",
     "ternary.md",
     "Mathematical Foundations for Computing",
     "Thoughts on Code Documentation.md",
@@ -283,7 +285,6 @@
     "Reference/Computer Science/Functional Programming.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-14 - Day 21 | SQL/2025-04-14 - Notes | SQL.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-04-15 - Day 22 | SQL 2/2025-04-14 - Notes | SQL 2.md",
-    "Old Notes to Sort Through and format/From Northcoders Bootcamp/other-notes/SQL.md",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"

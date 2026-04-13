@@ -384,3 +384,15 @@ def solution(s):
                 
     return result
 ```
+
+### Transposing matrixes
+Transposing a matrix is referred to the process of transforming a matrix's rows into its columns and its columns into its rows.
+
+```python
+transpose_matrix(arr: list):
+	rows = len(arr)
+	cols = len(arr[0]) if rows else 0
+	transposed_arr = [[arr[j][i] for j in range(rows)] for i in range(cols)]
+	
+	return transposed_arr
+```
