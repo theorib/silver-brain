@@ -392,7 +392,22 @@ Transposing a matrix is referred to the process of transforming a matrix's rows 
 transpose_matrix(arr: list):
 	rows = len(arr)
 	cols = len(arr[0]) if rows else 0
-	transposed_arr = [[arr[j][i] for j in range(rows)] for i in range(cols)]
+	transposed_arr = [[arr[c][r] for c in range(rows)] for r in range(cols)]
 	
 	return transposed_arr
+	
+# INITIAL LIST
+# [         col 0   col 1   col 2   col 3
+#  row 0  [(r0,c0),(r0,c1),(r0,c2),(r0,c3)]
+#  row 1  [(r1,c0),(r1,c1),(r1,c2),(r1,c3)] 
+#  row 2  [(r2,c0),(r2,c1),(r2,c2),(r2,c3)]
+# ]
+# TRANSPOSED RESULT
+# [         row 0   row 1   row 2  
+#  col 0  [(r0,c0),(r1,c0),(r2,c0)]
+#  col 1  [(r0,c1),(r1,c1),(r2,c1)] 
+#  col 2  [(r0,c2),(r1,c2),(r2,c2)]
+#  col 3  [(r0,c3),(r1,c3),(r2,c3)]
+# ]
+
 ```
