@@ -411,3 +411,40 @@ transpose_matrix(arr: list):
 # ]
 
 ```
+
+#### Traversing a Matrix to find the maximum reachable
+Finding the maximum reachable value from a start position that walks the matrix only if there is an adjacent value higher than the current one.
+```python
+# Given a grid representing a mountain terrain where each value represents altitude
+# and a starting point, we'll find the highest peak reachable through adjacent steps.
+def find_peak(grid, start_row, start_col):
+    rows, cols = len(grid), len(grid[0])
+    altitude = grid[start_row][start_col]
+    # Check North, East, South, West for higher altitude
+    while True:
+        current_max_altitude = -1
+        next_start_row = start_row
+        next_start_col = start_col
+        for row_offset, col_offset in [(-1, 0), (0, 1), (1, 0), (0, -1)]:
+            row, col = start_row + row_offset, start_col + col_offset
+            if 0 <= row < rows and 0 <= col < cols and grid[row][col] > current_max_altitude:
+                current_max_altitude = grid[row][col]  # This line introduces a logical error
+                next_start_row = row
+                next_start_col = col
+        if current_max_altitude > altitude:
+            altitude = current_max_altitude
+            start_row = next_start_row
+            start_col = next_start_col
+        else:
+            break
+    return altitude
+
+# Example mountain terrain grid
+mountain = [
+    [1, 2, 3],
+    [2, 5, 7],
+    [4, 6, 9]
+]
+# Starting at the base (0, 1) representing the beginning of the hike
+print(find_peak(mountain, 0, 1)) # 9  # Should print the altitude of the highest peak reachable
+```
