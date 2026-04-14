@@ -35,8 +35,7 @@
               "title": "CodeSignal Notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,11 +246,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "abc285d4b4a3bfdf",
+  "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
+    "Reference/Python/CodeSignal Notes.md",
     "Mathematical Foundations for Computing/2026-04-11.md",
     "Sets.md",
-    "Reference/Python/CodeSignal Notes.md",
     "Reference/Python/Modulo Operator.md",
     "Reference/Python/Useful Phython standard library functions.md",
     "Mathematical Foundations for Computing/2026-04-12.md",
