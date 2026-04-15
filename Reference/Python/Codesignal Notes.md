@@ -108,13 +108,23 @@ user_data.sort(key=itemgetter(1,0)) # [('Oliver', 'Bennett'), ('Alice', 'Evergre
 
 ## Getting well formatted duration strings
 ```python
+from datetime import datetime, timedelta
+from time import sleep # just so we can have a time difference
+
+initial_count = timedelta(0)
+
+start_time = datetime.now()
+sleep(5)
+end_time = datetime.now()
+
+duration = initial_count + (end_time - start_time)
+
 total_seconds = int(duration.total_seconds())
 
-# divmod(a, b) returns (a // b, a % b)
 hours, remainder = divmod(total_seconds, 3600)
 minutes, seconds = divmod(remainder, 60)
 
-print(f"{hours:02}:{minutes:02}:{seconds:02}")
+print(f"{hours:02d}:{minutes:02d}:{seconds:02d}")
 ```
 ## String operations
 
