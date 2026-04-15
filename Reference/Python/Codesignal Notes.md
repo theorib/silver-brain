@@ -106,6 +106,16 @@ user_data = [
 user_data.sort(key=itemgetter(1,0)) # [('Oliver', 'Bennett'), ('Alice', 'Evergreen'), ('Amara', 'Okonkwo'), ('Sana', 'Patel'), ('Elena', 'Rodriguez'), ('Marcus', 'Solomon'), ('Julian', 'Thorne')]
 ```
 
+## Getting well formatted duration strings
+```python
+total_seconds = int(duration.total_seconds())
+
+# divmod(a, b) returns (a // b, a % b)
+hours, remainder = divmod(total_seconds, 3600)
+minutes, seconds = divmod(remainder, 60)
+
+print(f"{hours:02}:{minutes:02}:{seconds:02}")
+```
 ## String operations
 
 ### Upper and lower cases
