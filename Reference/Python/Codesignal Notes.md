@@ -86,6 +86,26 @@ double_ended_queue.rotate() # deque(['f', 8, 7, 'a', 'b', 'c', 'd', 'e'])
 double_ended_queue.rotate(-1) # deque([8, 7, 'a', 'b', 'c', 'd', 'e', 'f'])
 ```
 
+## `operator.itemgetter()`
+The `operator.itemgetter()` is a higher order function from the standard library that returns a function that gets the specified values from a list, dictionary, etc.
+
+It's very useful in sorting operations where we need to sort by multiple values at once, for example, sorting a list by last names and for each last name sorting those by first name:
+
+```python
+from operator import itemgetter
+user_data = [
+    ("Alice", "Evergreen"),
+    ("Marcus", "Solomon"),
+    ("Elena", "Rodriguez"),
+    ("Julian", "Thorne"),
+    ("Sana", "Patel"),
+    ("Oliver", "Bennett"),
+    ("Amara", "Okonkwo")
+]
+
+user_data.sort(key=itemgetter(1,0)) # [('Oliver', 'Bennett'), ('Alice', 'Evergreen'), ('Amara', 'Okonkwo'), ('Sana', 'Patel'), ('Elena', 'Rodriguez'), ('Marcus', 'Solomon'), ('Julian', 'Thorne')]
+```
+
 ## String operations
 
 ### Upper and lower cases
