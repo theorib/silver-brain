@@ -14,11 +14,16 @@ print(f'{i=}, {j=}, {result=}') # → i=3, j=7, result=[1, 2, 3]
 
 ## Getting the middle element of a list
 
-This formula always finds the **middle index** of a list if it's length is even **and** the **right** middle index if it's **odd** in length. It gives you the index directly, not a count.
+This formula always finds the **middle index** of a list if it's length odd **and** the **right** middle index if the length is **even**. It gives you the index directly, not a count.
 
 ```python
 arr = [1,2,3,4,5]
-middle = len(arr) // 2
+middle_i = len(arr) // 2 # = 2 which is the middle index of the odd list
+
+arr = [1,2,3,4,5,6]
+middle_i = len(arr) // 2 # = 3 which is the right middle index of the even list
+
+middle_rounded_up = len(arr) // 2 + len(arr) % 2
 ```
 
 ## Cycling (cycle, rotation or rotating) through a list and going back to the beginning
