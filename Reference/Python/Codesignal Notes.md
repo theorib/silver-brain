@@ -7,6 +7,8 @@ tags:
 ## Quick Debugging and printing multiple variables:
 ```python
 print(f'inner loop: {locals()}')
+
+print(f'{i=}, {j=}, {result=}') # → i=3, j=7, result=[1, 2, 3]
 ```
 
 ## Getting the middle element of a list
