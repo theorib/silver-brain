@@ -52,6 +52,7 @@ list(counter.items()) # [('a', 4), ('b', 2), ('c', 3), ('z', 1)]
 
 
 ## `itertools.zip_longest()`
+returns a zip iterable but doesn't stop at the smallest iterable length, instead, it includes the values from the longer iterable paired with `None` values.
 ```python
 from itertools import zip_longest
 result = zip_longest(['a', 'b', 'c'], [1, 2, 3, 4]) # <itertools.zip_longest object at 0x100ae90d0>
