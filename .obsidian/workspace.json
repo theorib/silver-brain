@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Python/CodeSignal Notes.md",
+                "file": "Reference/Python/Claude Python Fluency Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CodeSignal Notes"
+              "title": "Claude Python Fluency Cheat Sheet"
             }
           },
           {
@@ -277,8 +277,9 @@
   },
   "active": "1fd8898a46af2217",
   "lastOpenFiles": [
-    "Reference/Python/CodeSignal Solved Exercises.md",
     "Reference/Python/CodeSignal Notes.md",
+    "Reference/Python/Claude Python Fluency Cheat Sheet.md",
+    "Reference/Python/CodeSignal Solved Exercises.md",
     "Reference/Python/Useful Phython standard library functions.md",
     "Mathematical Foundations for Computing/2026-04-11.md",
     "Sets.md",
@@ -312,7 +313,6 @@
     "Untitled 9.base",
     "Untitled 6.base",
     "Untitled 5.base",
-    "Reference/Computer Science/Functional Programming.md",
     "Screenshot 2025-09-27 at 12.19.48 1.jpg",
     "Screenshots/Screenshot 2025-09-27 at 12.19.48.jpg",
     "Old Notes to Sort Through and format/From old REFs folder/react-learning-snippets/public/vite.svg"
