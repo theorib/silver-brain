@@ -353,3 +353,92 @@ def solution(matrix):
             
     return result  
 ```
+
+
+## Exploring Diagonal Matrix Traversal Techniques 2
+
+Consider a grid of characters in the form of a 2D array, where each cell represents a distinct character selected from `a`-`z`. Your task is to process this grid following a specific order.
+
+Start from the top-left cell of the grid and move in a _clockwise spiral direction_. Initially, go right until you hit the right boundary, then down until you reach the bottom boundary, then left until you encounter the left boundary, and finally, up until you hit the top boundary (note that the top boundary is now the first row since we already visited the first cell in the matrix). Once this cycle is complete, move inwards, i.e., one cell to the right, and repeat the spiral process within the remaining unvisited cells.
+
+During this spiral traversal, you will generate a sequence of visited cell characters. Afterwards, identify the vowels (`a`, `e`, `i`, `o`, `u`) in the sequence and return their positions.
+
+Please implement the function `spiral_traverse_and_vowels(grid)` to achieve this. This function takes a 2D array of characters (`grid`) as input and returns a list containing the positions of the vowels in the spirally traversed sequence.
+
+For instance, consider the following 3x4 grid:
+
+```python
+[['a', 'b', 'c', 'd'],
+['e', 'f', 'g', 'h'],
+['i', 'j', 'k', 'l']]
+```
+
+Upon completing the spiral traversal, we will obtain the sequence: `['a', 'b', 'c', 'd', 'h', 'l', 'k', 'j', 'i', 'e', 'f', 'g']`. From this sequence, we observe that `'a'`, `'i'`, and `'e'` are vowels and are located at the 1st, 9th, and 10th positions in the sequence, so our function returns: `[0, 8, 9]`.
+
+The size of the 2D array (`grid`) will not exceed 100x100, and each character will be a lowercase letter from `'a'` to `'z'`.
+
+Solution:
+```python
+def spiral_traverse_and_vowels(grid):
+    vowels = 'aeiou'
+    path = []
+    result = []
+    
+    rows = len(grid)
+    cols = len(grid[0]) if rows else 0
+    
+    limits = {
+        'first_row': 0,
+        'last_row': rows - 1,
+        'first_col': 0,
+        'last_col': cols - 1
+    }
+    
+    direction = 'right'
+    
+    row, col = 0, 0
+    
+    for _ in range(rows * cols):
+        char = grid[row][col]
+        path.append(char)
+        
+        if char in vowels:
+            result.append(len(path) - 1)
+            
+        if direction == 'right':
+            if col == limits['last_col'] and row == limits['first_row'] and row < limits['last_row']:
+                row += 1
+                limits['first_row'] += 1
+                direction = 'down'
+            elif col < limits['last_col']:
+                col += 1
+                
+        elif direction == 'down':
+            if row == limits['last_row'] and col == limits['last_col'] and col > limits['first_col']:
+                col -= 1
+                limits['last_col'] -= 1
+                direction = 'left'
+            elif row < limits['last_row']:
+                row += 1
+                
+        elif direction == 'left':
+            if col == limits['first_col'] and row == limits['last_row'] and row > limits['first_row']:
+                row -= 1
+                limits['last_row'] -= 1
+                direction = 'up'
+            elif col > limits['first_col']:
+                col -= 1
+        elif direction == "up":
+            if row == limits['first_row'] and col == limits['first_col'] and col < limits['last_col']:
+                col += 1
+                limits['first_col'] += 1
+                direction = 'right'
+            elif row > limits['first_row']:
+                row -= 1
+                
+            
+            
+    
+    return result
+        
+```

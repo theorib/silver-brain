@@ -77,8 +77,7 @@
               "title": "CodeSignal Solved Exercises"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,11 +288,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "abc285d4b4a3bfdf",
+  "active": "045f7f54e408b9d7",
   "lastOpenFiles": [
+    "Reference/Python/CodeSignal Solved Exercises.md",
     "Reference/Python/Claude Python Fluency Cheat Sheet.md",
     "Reference/Python/CodeSignal Notes.md",
-    "Reference/Python/CodeSignal Solved Exercises.md",
     "Reference/Python/Useful Phython standard library functions.md",
     "Mathematical Foundations for Computing/2026-04-11.md",
     "Sets.md",
