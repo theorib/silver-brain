@@ -229,3 +229,26 @@ for i in range(middle):
  
 print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ```
+
+### Checking if a number is Prime:
+A prime number is a natural number bigger than one that is only divisible by one and by itself.
+- `1` is not considered a prime number since it only has one factor.
+- `2` is the smallest prime number and the **only even** prime number
+- Natural numbers are all integers bigger than `0`
+
+```python
+import math
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+
+    for i in range(3, math.isqrt(n) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+```

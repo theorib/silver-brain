@@ -77,7 +77,8 @@
               "title": "CodeSignal Solved Exercises"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,13 +289,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "045f7f54e408b9d7",
+  "active": "8b327366b9818e97",
   "lastOpenFiles": [
+    "Mathematical Foundations for Computing/2026-04-11.md",
     "Reference/Python/CodeSignal Solved Exercises.md",
     "Reference/Python/Claude Python Fluency Cheat Sheet.md",
     "Reference/Python/CodeSignal Notes.md",
     "Reference/Python/Useful Phython standard library functions.md",
-    "Mathematical Foundations for Computing/2026-04-11.md",
     "Sets.md",
     "Reference/Python/Modulo Operator.md",
     "Mathematical Foundations for Computing/2026-04-12.md",
