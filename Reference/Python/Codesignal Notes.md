@@ -133,6 +133,46 @@ user_data = [
 user_data.sort(key=itemgetter(1,0)) # [('Oliver', 'Bennett'), ('Alice', 'Evergreen'), ('Amara', 'Okonkwo'), ('Sana', 'Patel'), ('Elena', 'Rodriguez'), ('Marcus', 'Solomon'), ('Julian', 'Thorne')]
 ```
 
+## `heapq`
+Time Complexity of Heapify
+- heapify: `O(log n)` | (worse case, best case `0(1)`)
+- heappush:` O(log n)`
+- heappop: `O(log n)`
+- nlargest: `O(log n)`
+- nsmallest: `O(log n)`
+- Looking up min value heap: `O(1)`
+
+```python
+import heapq
+
+a = [3, 5, 1, 2, 6, 8, 7]
+
+# creates a min heap
+heapq.heapify(a) # a = [1, 2, 3, 5, 6, 8, 7]
+
+# smallest number in the heap
+a[0] # = 1
+
+# n largest numbers in the heap O(n log(t)) time complexity for t = num of items
+heapq.nlargest(3,a) # = [8, 7, 6]
+
+# n smallest numbers in the heap
+heapq.nsmallest(3,a) # = [1, 2, 3]
+
+# push a number into the heap maitaining it's heap property
+heapq.heappush(a, 10) # a = [1, 2, 3, 5, 6, 8, 7, 10]
+
+# n largest numbers in the heap
+heapq.nlargest(3,a) # = [10, 8, 7]
+
+# pop the smallest number from the heap and return it
+heapq.heappop() # = 1 | a = [2, 5, 3, 10, 6, 8, 7]
+
+# push a number into the heap maitaining it's heap property
+heapq.heappush(a, 0) # a = [0, 2, 3, 5, 6, 8, 7, 10]
+
+```
+
 ## Getting well formatted duration strings
 
 ```python
