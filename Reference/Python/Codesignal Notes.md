@@ -302,3 +302,7 @@ def is_prime(n):
             return False
     return True
 ```
+
+
+## Prefix Sum
+A prefix sum is the running total from the beginning of the array `0` to the current index `i`
