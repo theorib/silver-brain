@@ -305,4 +305,26 @@ def is_prime(n):
 
 
 ## Prefix Sum
-A prefix sum is the running total from the beginning of the array `0` to the current index `i`
+A prefix sum is the running total from the beginning of the array `0` to the current index `i`.
+- Initialise a `prefix_sum` variable set to `0`
+- Initialise a `count` variable set to `0`
+- Initialise a `seen_prefix_sums` hash map with`{0:1}` because even before beginning,  `prefix_sum` equals `0` so we set it's count in the hash map to `1`
+- Loop through every number in the array
+- Calculate the current `prefix_sum` (`prefix_sum += num`)
+- `if` `(prefix_sum - k) in seen_prefix_sum`, we increment `count` by the count of `prefix_sum - k` that is in the hash map (`count += seen_prefix_sum[prefix_sum - k]`)
+- Increment the count of the current`prefix_sum` in `seen_prefix_sums` hash map (`seen_prefix_sum[prefix_sum - k] = seen_prefix_sum.get(prefix_sum - k, 0) + 1`).
+- `return` `count`
+
+```python
+def subarraySum(nums: List[int], k: int) -> int:
+    prefix_sum = 0
+    seen_prefix_sums = {0:1}
+    count = 0
+
+    for num in nums:
+        prefix_sum += num
+        if prefix_sum - k in seen_prefix_sums:
+            count += seen_prefix_sums[prefix_sum - k]
+        seen_prefix_sums[prefix_sum] = seen_prefix_sums.get(prefix_sum, 0) + 1
+    return count
+```
