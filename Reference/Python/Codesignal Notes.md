@@ -58,6 +58,16 @@ or. a more pythonic way
 reversed(range(len(some_list)))
 ```
 
+## Matrix Transposal and getting columns
+```python
+matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+
+list(zip(*matrix))  # transpose columns to rows = [(1, 5, 9, 13), (2, 6, 10, 14), (3, 7, 11, 15), (4, 8, 12, 16)]
+
+[row[0] for row in matrix]  # column 0 = [1, 5, 9, 13]
+[row[1] for row in matrix]  # column 1 = [2, 6, 10, 14]
+```
+
 ## `collections.Counter`
 
 creates a counter object prioritising the order in which elements were passed to it so if there are two elements with the same count, the first instance that entered the count will be the first one to be presented in a `.most_common()` method.
