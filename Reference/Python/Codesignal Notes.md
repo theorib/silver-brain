@@ -63,6 +63,8 @@ reversed(range(len(some_list)))
 matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 
 list(zip(*matrix))  # transpose columns to rows = [(1, 5, 9, 13), (2, 6, 10, 14), (3, 7, 11, 15), (4, 8, 12, 16)]
+[list(row) for row in zip(*matrix)]
+[[matrix[col][row] for col in range(len(matrix[0]))] for row in range(len(matrix))]
 
 [row[0] for row in matrix]  # column 0 = [1, 5, 9, 13]
 [row[1] for row in matrix]  # column 1 = [2, 6, 10, 14]
