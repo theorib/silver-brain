@@ -59,6 +59,7 @@ reversed(range(len(some_list)))
 ```
 
 ## Matrix Transposal and getting columns
+
 ```python
 matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 
@@ -146,9 +147,11 @@ user_data.sort(key=itemgetter(1,0)) # [('Oliver', 'Bennett'), ('Alice', 'Evergre
 ```
 
 ## `heapq`
+
 Time Complexity of Heapify
+
 - heapify: `O(log n)` | (worse case, best case `0(1)`)
-- heappush:` O(log n)`
+- heappush:`O(log n)`
 - heappop: `O(log n)`
 - nlargest: `O(log n)`
 - nsmallest: `O(log n)`
@@ -282,8 +285,10 @@ for i in range(middle):
 print(opposite_pairs) # [(1, 5), (2, 4), (3, 3)]
 ```
 
-### Checking if a number is Prime:
+### Checking if a number is Prime
+
 A prime number is a natural number bigger than one that is only divisible by one and by itself.
+
 - `1` is not considered a prime number since it only has one factor.
 - `2` is the smallest prime number and the **only even** prime number
 - Natural numbers are all integers bigger than `0`
@@ -305,15 +310,17 @@ def is_prime(n):
     return True
 ```
 
-
 ## Prefix Sum
+
 A prefix sum is the running total from the beginning of the array `0` to the current index `i`.
+
 - Initialise a `prefix_sum` variable set to `0`
 - Initialise a `count` variable set to `0`
 - Initialise a `seen_prefix_sums` hash map with`{0:1}` because even before beginning,  `prefix_sum` equals `0` so we set it's count in the hash map to `1`
 - Loop through every number in the array
 - Calculate the current `prefix_sum` (`prefix_sum += num`)
-- `if` `(prefix_sum - k) in seen_prefix_sum`, we increment `count` by the count of `prefix_sum - k` that is in the hash map (`count += seen_prefix_sum[prefix_sum - k]`)
+- Calculate the difference between the current `prefix_sum` and `k` with `diff = prefix_sum - k`
+- `if` `diff in seen_prefix_sum`, we increment `count` by the current count of that diff in the hashmap `seen_prefix_sums[diff]` using (`count += seen_prefix_sum[diff]`)
 - Increment the count of the current`prefix_sum` in `seen_prefix_sums` hash map (`seen_prefix_sum[prefix_sum - k] = seen_prefix_sum.get(prefix_sum - k, 0) + 1`).
 - `return` `count`
 
@@ -325,8 +332,9 @@ def subarraySum(nums: List[int], k: int) -> int:
 
     for num in nums:
         prefix_sum += num
-        if prefix_sum - k in seen_prefix_sums:
-            count += seen_prefix_sums[prefix_sum - k]
+        diff = prefix_sum - k
+        if diff in seen_prefix_sums:
+            count += seen_prefix_sums[diff]
         seen_prefix_sums[prefix_sum] = seen_prefix_sums.get(prefix_sum, 0) + 1
     return count
 ```
