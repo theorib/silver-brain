@@ -324,6 +324,8 @@ A prefix sum is the running total from the beginning of the array `0` to the cur
 - Increment the count of the current`prefix_sum` in `seen_prefix_sums` hash map (`seen_prefix_sum[prefix_sum - k] = seen_prefix_sum.get(prefix_sum - k, 0) + 1`).
 - `return` `count`
 
+In other words, we keep accumulating the current sum of elements and for each new element we add to that sum, we ask ourselves: have we seen a past total sum that equals this difference between the current total sum and the target number? If we did, we can add the count of how many time we have seen that to the total number of possible subarrays we can form.   
+
 ```python
 def subarraySum(nums: List[int], k: int) -> int:
     prefix_sum = 0
