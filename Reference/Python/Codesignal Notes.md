@@ -79,9 +79,14 @@ creates a counter object prioritising the order in which elements were passed to
 from collections import Counter
 
 counter = Counter(['a', 'b', 'c', 'c', 'a', 'a', 'c', 'b', 'z', 'a']) # Counter({'a': 4, 'c': 3, 'b': 2, 'z': 1})
+counter.elements() # iterator ['a', 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c', 'z']
+counter.total() # 10
+counter.clear() # clears the counter
+counter.subtract(another_counter)
 counter.most_common(1) # [('a', 4)]
 counter.most_common(2) # [('a', 4), ('c', 3)]
 list(counter.items()) # [('a', 4), ('b', 2), ('c', 3), ('z', 1)]
+
 ```
 
 ## `itertools.zip_longest()`

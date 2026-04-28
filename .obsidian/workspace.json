@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "8b327366b9818e97",
+            "id": "2c9e0ded8c221c77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -289,11 +289,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8b327366b9818e97",
+  "active": "2c9e0ded8c221c77",
   "lastOpenFiles": [
-    "Mathematical Foundations for Computing/2026-04-11.md",
-    "Reference/Python/CodeSignal Notes.md",
     "Reference/Python/Claude Python Fluency Cheat Sheet.md",
+    "Reference/Python/CodeSignal Notes.md",
+    "Mathematical Foundations for Computing/2026-04-11.md",
     "Reference/Python/Useful Phython standard library functions.md",
     "Reference/Python/CodeSignal Solved Exercises.md",
     "Sets.md",
