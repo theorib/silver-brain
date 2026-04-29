@@ -329,7 +329,7 @@ A prefix sum is the running total from the beginning of the array `0` to the cur
 - Increment the count of the current`prefix_sum` in `seen_prefix_sums` hash map (`seen_prefix_sum[prefix_sum - k] = seen_prefix_sum.get(prefix_sum - k, 0) + 1`).
 - `return` `count`
 
-In other words, we keep accumulating the current sum of elements and for each new element we add to that sum, we ask ourselves: have we seen a past total sum that equals this difference between the current total sum and the target number? If we did, we can add the count of how many time we have seen that to the total number of possible subarrays we can form.   
+In other words, we keep accumulating the current sum of elements and for each new element we add to that sum, we ask ourselves: have we seen a past total sum that equals this difference between the current total sum and the target number? If we did, we can add the count of how many time we have seen that to the total number of possible subarrays we can form.
 
 ```python
 def subarraySum(nums: List[int], k: int) -> int:
@@ -344,4 +344,28 @@ def subarraySum(nums: List[int], k: int) -> int:
             count += seen_prefix_sums[diff]
         seen_prefix_sums[prefix_sum] = seen_prefix_sums.get(prefix_sum, 0) + 1
     return count
+```
+
+## Add Strings of Numbers
+
+```python
+def addStrings(self, num1: str, num2: str) -> str:
+        carry = 0
+        result = []
+        i = len(num1) - 1
+        j = len(num2) - 1
+
+        while i >= 0 or j >= 0 or carry:
+            a = int(num1[i]) if i >= 0 else 0
+            b = int(num2[j]) if j >= 0 else 0
+
+            total = a + b + carry
+            carry = total // 10
+            remainder = total % 10
+
+            result.append(str(remainder))
+            i -= 1
+            j -= 1
+
+        return "".join(result[::-1])
 ```
