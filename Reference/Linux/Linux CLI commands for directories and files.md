@@ -131,6 +131,7 @@ rm -rf path/folderName1
 ```
 
 ## create alias symlink
+## create alias symlink
 
 ```bash
 ln -s /path/to/original /path/to/link
