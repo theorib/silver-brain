@@ -349,7 +349,7 @@ def subarraySum(nums: List[int], k: int) -> int:
 ## Add Strings of Numbers
 
 ```python
-def addStrings(self, num1: str, num2: str) -> str:
+def addStrings(num1: str, num2: str) -> str:
         carry = 0
         result = []
         i = len(num1) - 1
