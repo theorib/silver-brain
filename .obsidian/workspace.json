@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "8ec00f83379a6a73",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
+          },
+          {
             "id": "1fd8898a46af2217",
             "type": "leaf",
             "state": {
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -289,7 +301,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2c9e0ded8c221c77",
+  "active": "8ec00f83379a6a73",
   "lastOpenFiles": [
     "Reference/Python/Claude Python Fluency Cheat Sheet.md",
     "Reference/Python/CodeSignal Notes.md",
