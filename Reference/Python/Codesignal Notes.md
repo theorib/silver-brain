@@ -315,6 +315,9 @@ def is_prime(n):
     return True
 ```
 
+## Sliding windows
+When using sliding windows, to make most solutions O(n), remember that when you are sliding the window you are just adding a value  to the end and subtracting a value from the start. If you keep track of the last value used, you can probably calculate the next value without redoing a lot of other calculations.
+
 ## Prefix Sum
 
 A prefix sum is the running total from the beginning of the array `0` to the current index `i`.
