@@ -369,3 +369,62 @@ def addStrings(num1: str, num2: str) -> str:
 
         return "".join(result[::-1])
 ```
+
+## Multiply String of Numbers
+
+```python
+class Solution:
+    def add_str(self, num1: str, num2: str) -> str:
+        carry = 0
+        result = []
+        i = len(num1) - 1
+        j = len(num2) - 1
+
+        while i >= 0 or j >= 0 or carry:
+            a = int(num1[i]) if i >= 0 else 0
+            b = int(num2[j]) if j >= 0 else 0
+
+            total = a + b + carry
+            carry = total // 10
+            remainder = total % 10
+
+            result.append(str(remainder))
+            i -= 1
+            j -= 1
+
+        return "".join(result[::-1])
+
+    def multiply(self, num1: str, num2: str) -> str:
+        result = '0'
+        
+        if num1 < num2:
+            num1, num2 = num2, num1
+        carry = 0
+        place = 0
+    
+        i = len(num1) - 1
+        j = len(num2) - 1
+
+        while j >= 0:
+            partial = [] + (["0"] * place)
+            b = int(num2[j])
+            while i >= 0 or carry:
+                a = int(num1[i]) if i >= 0 else 0
+
+                total = ((a * b) + carry)
+                carry, remainder = divmod(total, 10)
+                partial.append(str(remainder))
+                i -= 1
+            
+            while partial[-1] == '0' and len(partial) > 1:
+                partial.pop()
+
+            partial = "".join(partial[::-1])
+            result = self.add_str(result, partial)
+            place += 1
+            i = len(num1) - 1
+            j -= 1
+
+        return result
+        
+```
