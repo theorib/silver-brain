@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -290,8 +290,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1fd8898a46af2217",
+  "active": "2c9e0ded8c221c77",
   "lastOpenFiles": [
+    "Reference/Linux/shebang.md",
     "Reference/Linux/Linux CLI commands for directories and files.md",
     "Reference/git/Git Workflow Guidelines.md",
     "Reference/git/Git Trees and Blobs.md",
@@ -323,7 +324,6 @@
     "Reference/Linux/Creating SSH key pairs.md",
     "Reference/Linux/cloud-init/cloud-init creating SSH host keys.md",
     "Old Notes to Sort Through and format/From Northcoders Bootcamp/de-fundamentals/2025-05-01 - Day 32 | Terraform/2025-05-01 - Day 32 | Terraform.md",
-    "Reference/SQL/SQL Grouping.md",
     "Untitled 10.base",
     "Untitled 9.base",
     "Untitled 6.base",
